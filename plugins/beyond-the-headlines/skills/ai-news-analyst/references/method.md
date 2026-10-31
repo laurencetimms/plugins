@@ -33,6 +33,27 @@ In every item, the reader should be able to tell at a glance:
 - **Consensus:** what people closest to it broadly agree on, or that they don't.
 - **Interpretation:** your own reading, labelled "My interpretation" or similar.
 
+## Getting to the source
+
+**Discover in digests, read at the source.** Newsletters, digests and aggregators are for finding stories. Don't open the links inside them: fetch tools often refuse links that didn't come back from a search. Search for the story's own title or key facts, and open the link the search returns.
+
+**Climb to the original.** For every item, try the primary source first: the study, the filing, the official letter or decision, the dataset. `subject-ai.md` lists where these live for AI stories. Use coverage for context, reactions and the people affected, not for the facts the original states.
+
+**When a page won't open,** try these in order, and stop at the first that works:
+
+1. Search for its title, and open the link from the results.
+2. Go to the primary source behind it.
+3. Find a legitimate republished copy: a wire story carried by another outlet, or a public-radio story on a member station's site.
+4. Say in the item what you couldn't open, and rely on it no further.
+
+Never use caches, mirrors, archive copies or other ways round a site that refuses automated readers. That refusal is the site's choice.
+
+**Mark how each item was sourced,** in a few words at the end of the item:
+
+- *Checked against the original:* you opened the primary source.
+- *Secondary reports only:* you relied on coverage, and the original wasn't reachable or doesn't exist.
+- *Couldn't open:* a key source wouldn't load; say which.
+
 ## The bar for stories outside the user's interests
 
 A brief can include up to two items outside the user's followed threads and lenses. Include one only if it meets at least three of these:

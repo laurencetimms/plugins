@@ -36,6 +36,23 @@ What the analyst needs to know about AI news specifically. Use it alongside `met
 - Company filings and earnings calls, where executives speak under legal obligations.
 - Procurement records and audit offices for public-sector use.
 
+## Where primary sources live
+
+Go here before relying on coverage. Search for the specific document, then open the link the search returns.
+
+| Story is about | Look in |
+| --- | --- |
+| A company's own disclosures | SEC EDGAR (US filings), Companies House (UK), investor-relations pages, earnings-call transcripts |
+| UK policy and spending | gov.uk (policy papers, Budget documents, consultation responses), legislation.gov.uk, Hansard, parliamentary committee pages, National Audit Office |
+| EU policy and law | EUR-Lex, the European Commission's press corner, the AI Office |
+| US federal policy | Federal Register, congress.gov, agency press pages |
+| Other governments | The ministry's own site or parliament's site, even if not in English |
+| Jobs and the economy | ONS, US Bureau of Labor Statistics, Eurostat, OECD, ILO |
+| Research results | arXiv and other preprint servers, the journal's page via the paper's DOI, EurekAlert, university press offices |
+| Court cases | judiciary.uk, BAILII, CourtListener, the court's own site |
+| Regulators' decisions | The regulator's own site: ICO, Ofcom, CMA, FTC, national data protection authorities |
+| AI safety evaluations | Government AI security and safety institutes, labs' published system cards |
+
 ## Recurring traps
 
 - **Press releases passed through aggregators.** Ten articles from one announcement is one source.

@@ -9,7 +9,7 @@
    - each of the user's lenses
    - the under-covered zones in `subject-ai.md`
    - one or two deliberate searches for critics and affected people
-4. Fetch every page you will cite.
+4. For each item you'll include, get to the primary source before writing, following "Getting to the source" in `method.md`. Fetch every page you will cite; a search snippet is not a source.
 
 ## Structure
 
@@ -23,6 +23,7 @@ Readable in about five minutes. Depth belongs in the deep dive, not here.
    - one line on what it is, marked **[headline]** or **[under-covered]**
    - one line on why it might matter
    - a disclosure if Anthropic or Claude is involved
+   - how it was sourced: *checked against the original*, *secondary reports only*, or *couldn't open* (see `method.md`)
 4. **Outside your lanes.** Zero to two items that clear the bar in `method.md`, with the criteria named.
 5. **How to reply.** Tell the user how to pick items, for example "Open a chat with Claude and say 'AI analyst: 2 and 5', or 'less of X'". If the brief is emailed, say that replies to the email won't reach the analyst. Link the interest profile.
 6. **Sources.** Links, grouped by item.

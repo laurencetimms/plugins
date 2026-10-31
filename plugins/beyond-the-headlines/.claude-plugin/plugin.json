@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "beyond-the-headlines",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "News analysts that see past the headlines. First analyst: the AI News Analyst, a weekly brief on what AI is doing to work, power, knowledge and people, following your own interests.",
   "author": {
     "name": "Laurence Timms",
