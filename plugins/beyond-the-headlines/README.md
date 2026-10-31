@@ -59,9 +59,26 @@ It works best when Claude can search the web, and has somewhere to keep your pro
 - **Delivery:** email to yourself, a document, or the chat.
 - **Schedule:** scheduled tasks where available. Otherwise, say `brief me` whenever you want one.
 
+## What it does on your behalf
+
+The plugin contains skills only: no code, scripts, hooks or servers of its own. It acts through tools already available in your Claude account, and only to set up and deliver your analyst.
+
+- **Searches the web and reads public pages** to research each brief and deep dive.
+- **Creates and updates your interest profile** in the place you choose during setup: a Claude Doc, a Google Doc, a Notion page, or a file in your project. After each brief it adds one row to the profile's brief log. It changes other parts only when you ask it to.
+- **Delivers each brief** the way you chose: by email to your own address through your Gmail connection, as a new document in your own storage, or as a chat reply. It never sends briefs to anyone else.
+- **Creates one weekly scheduled task**, at the day and time you choose during setup, if your account supports scheduled tasks and you chose email or document delivery. You can pause, change or delete it at any time in your scheduled tasks.
+
+It sends nothing to the plugin's author or to any other service.
+
 ## Privacy
 
-Your profile lives in your own storage. The analyst asks only what it needs, records only what you tell it, and sends briefs only to your own address.
+**Your interest profile is a document you write and own,** not a record of your conversations. It holds only what you tell the analyst for this purpose: why you follow AI, what you already know, the lenses and stories you choose, and what you want less of. It also keeps a log of each brief's menu and the items you picked.
+
+- **Where it lives:** in your own storage, never anywhere else.
+- **What goes in it:** only your explicit instructions, such as "follow Y" or "less of X". The analyst doesn't read your chat history or memory to fill it, and doesn't add its own conclusions about you.
+- **Your control:** you can edit or delete it at any time.
+
+The analyst asks only what it needs, and sends briefs only to your own address.
 
 ## Author
 

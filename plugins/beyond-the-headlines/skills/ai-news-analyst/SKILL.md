@@ -39,7 +39,7 @@ Every user has their own interest profile document. It is the analyst's memory. 
 2. A document whose title contains "AI interest profile", found with whatever document tools this session has: Claude Docs, Google Drive, Notion, a Project's knowledge, or local files.
 3. Ask the user for it. If they don't have one, run Setup.
 
-**Ownership.** The profile belongs to the user. Only change what the user has asked you to change, and add to the brief log. Record what they said, not your interpretation of it. Never store anything in it they didn't give you for this purpose.
+**Ownership.** The profile belongs to the user. Only change what the user has asked you to change, and add to the brief log. Record what they said, not your interpretation of it. Never store anything in it they didn't give you for this purpose. Don't fill it from their chat history, memory or other files unless they ask you to.
 
 ## Rules that apply in every mode
 
