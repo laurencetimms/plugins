@@ -10,7 +10,7 @@
       "name": "beyond-the-headlines",
       "source": "./plugins/beyond-the-headlines",
       "description": "News analysts that see past the headlines. Starts with the AI News Analyst: a weekly brief on AI's impact on work, power, knowledge and people.",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "category": "research"
     }
   ]

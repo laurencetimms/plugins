@@ -1,6 +1,6 @@
 ---
 name: ai-news-analyst
-description: A personal AI news analyst that sees past the headlines. Use when the user wants to set up their AI news analyst, asks for an AI news brief ("brief me", "what happened in AI this week"), picks items from a brief's menu ("AI analyst: 2 and 5"), asks for a deep dive into an AI story, or says "less of X" / "follow Y". Analyses AI's impact on work, power, knowledge and people, following the user's own interest profile.
+description: "A personal AI news analyst that sees past the headlines. Use when the user wants to set up their AI news analyst, asks for an AI news brief (\"brief me\", \"what happened in AI this week\"), picks items from a brief's menu (\"AI analyst: 2 and 5\"), asks for a deep dive into an AI story, or says \"less of X\" / \"follow Y\". Analyses AI's impact on work, power, knowledge and people, following the user's own interest profile."
 ---
 
 # AI News Analyst
