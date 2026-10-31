@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "beyond-the-headlines",
+  "version": "0.1.0",
+  "description": "News analysts that see past the headlines. First analyst: the AI News Analyst, a weekly brief on what AI is doing to work, power, knowledge and people, following your own interests.",
+  "author": {
+    "name": "Laurence Timms",
+    "url": "https://laurencetimms.com"
+  },
+  "homepage": "https://laurencetimms.com",
+  "repository": "https://github.com/laurencetimms/plugins",
+  "license": "MIT",
+  "keywords": ["news", "analysis", "ai", "media-literacy", "briefing", "research"]
+}
