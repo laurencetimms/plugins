@@ -10,23 +10,28 @@ In two or three sentences, say what the analyst does: a weekly brief that looks 
 
 Ask one question at a time, in plain language. If this session has a tool for multiple-choice questions, use it where options are listed, and always allow the user to answer in their own words. Accept short answers; don't push for more than they want to give.
 
+Multiple-choice tools often show only a few options per question (four on claude.ai). Where a question lists more than that, split the options into the groups given below. A question with no listed options, such as Background, is asked as a plain question in the chat.
+
 1. **Why AI?** What draws them to following AI? For example: it's changing their work, they lead or advise others through it, they're curious, they're worried, they teach, or they invest.
 2. **Background.** What do they already know well, so the analyst doesn't explain it? A sentence about their work and how technical they are is enough.
-3. **Lenses.** Which of these matter most? Pick any, and add others.
-   - Work, jobs and skills
-   - Power, geopolitics and regulation
-   - Science and knowledge
-   - Public services and democracy
-   - Creativity and culture
-   - Wellbeing, relationships and society
-   - Education and how people learn
-   - Environment and physical costs
-   - Business and markets
+3. **Lenses.** Which of these matter most? Pick any, and add others. With a multiple-choice tool, ask the three groups as three questions in one go, each allowing several answers, and invite their own lenses through the free-text answer on the last.
+   - **People**
+     - Work, jobs and skills
+     - Education and how people learn
+     - Wellbeing, relationships and society
+   - **Power**
+     - Power, geopolitics and regulation
+     - Public services and democracy
+     - Business and markets
+   - **Knowledge and the physical world**
+     - Science and knowledge
+     - Creativity and culture
+     - Environment and physical costs
 4. **A first thread.** Is there a story they're following, or a question they can't get a straight answer on? This becomes their first followed thread. "Not yet" is fine.
 5. **Less of.** Anything they want less of? For example: product launches, funding rounds, hype, doom, or a particular company.
 6. **Delivery.** How, when and how long?
-   - How: email to themselves, a document, or here in chat. Only offer what this session can actually do.
-   - When: day and time, and their time zone.
+   - How: email to themselves, a document, or here in chat. Only offer what this session can actually do. When offering chat, say that it means briefs only when they ask for one ("brief me"), not on a schedule.
+   - When: day and time, and their time zone. Skip this if they chose chat.
    - Length: a five-minute read is the default.
 
 ## 3. Create the profile
@@ -49,7 +54,9 @@ A first brief lets them see what they'll get, and react before the schedule star
 
 ## 5. Set up the weekly brief
 
-If this session has a tool for creating scheduled tasks (on claude.ai these are called scheduled tasks; Claude Code has its own scheduling), create one:
+If they chose chat, don't create a scheduled task: a scheduled run writes in a new session of its own, not in a chat they're looking at. Remind them in one sentence that they'll get a brief whenever they say "brief me", then go to Close.
+
+Otherwise, if this session has a tool for creating scheduled tasks (on claude.ai these are called scheduled tasks; Claude Code has its own scheduling), create one:
 
 - **Schedule:** the day and time they chose, in their time zone. Avoid exactly on the hour; a few minutes off spreads the load.
 - **Prompt:** `scheduled-task-prompt.md`, filled in with their profile's location and delivery details. Each run starts with no memory of this conversation, so the prompt must stand alone.
@@ -64,7 +71,7 @@ If this session can't create scheduled tasks, tell them they can say "brief me" 
 
 In three lines at most:
 - where their profile is
-- when the first brief arrives
+- when the first brief arrives, or, if they chose chat, that briefs come when they say "brief me"
 - how to reply: "Open a chat with Claude and say 'AI analyst: 2 and 5', or 'less of X'."
 
 ## Privacy
