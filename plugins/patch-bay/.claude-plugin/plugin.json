@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "patch-bay",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A synth-nerd companion for 70s and 80s electronic pop: this week in the charts with playlists, synth forensics with honest confidence grades, and Six Degrees of Being Boiled.",
   "author": {
     "name": "Laurence Timms",
