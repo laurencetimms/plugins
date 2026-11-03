@@ -11,6 +11,7 @@
   "repository": "https://github.com/laurencetimms/plugins",
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://laurencetimms.com/patchbay/privacy/",
   "keywords": [
     "music",
     "synthesizers",

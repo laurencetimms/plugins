@@ -55,7 +55,7 @@ Web search, so it can check charts and credits. Python, if available, for the gr
 
 ## Privacy
 
-Patch Bay has no server of its own and collects nothing. It searches the web and reads public pages through Claude's own tools. If you publish the live Map of Being Boiled, it is a private page in your own Claude account until you share it: leads saved on it are stored in that page's own storage, with the saver's Claude account id, and are visible to whoever you share the page with. The playlist step uses a music connector, such as Spotify's, only if you have connected one.
+Patch Bay has no server of its own and collects nothing. It searches the web and reads public pages through Claude's own tools. If you publish the live Map of Being Boiled, it is a private page in your own Claude account until you share it: leads saved on it are stored in that page's own storage, with the saver's Claude account id, and are visible to whoever you share the page with. The playlist step uses a music connector, such as Spotify's, only if you have connected one. The full policy is at [laurencetimms.com/patchbay/privacy](https://laurencetimms.com/patchbay/privacy/).
 
 ## Licence
 
