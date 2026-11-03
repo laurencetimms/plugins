@@ -12,6 +12,13 @@
       "description": "News analysts that see past the headlines. Starts with the AI News Analyst: a weekly brief on AI's impact on work, power, knowledge and people.",
       "version": "0.1.5",
       "category": "research"
+    },
+    {
+      "name": "patch-bay",
+      "source": "./plugins/patch-bay",
+      "description": "A synth-nerd companion for 70s and 80s electronic pop: this week in the charts with playlists, synth forensics with honest confidence grades, and Six Degrees of Being Boiled, with a live map.",
+      "version": "0.4.0",
+      "category": "entertainment"
     }
   ]
 }

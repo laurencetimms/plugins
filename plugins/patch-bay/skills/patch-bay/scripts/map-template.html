@@ -1,0 +1,443 @@
+<title>Map of Being Boiled</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: a patch panel — the map is the rack, Being Boiled the master jack; the side panel reads out the selected chain. */
+:root{
+  --bg:#f3f1ec;--panel:#fffdf8;--ink:#1d1b22;--mute:#67626f;--rule:#e1ddd3;--dot:#fffdf8;
+  --doc:#1f8f87;--rep:#a77808;--fol:#c9452a;--accent:#c9452a;--glow:#1f8f8722;
+  --f-display:"Chakra Petch","Eurostile","Bank Gothic",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15141a;--panel:#201e26;--ink:#f1eee7;--mute:#a59fae;--rule:#34313d;--dot:#15141a;--doc:#3fb8af;--rep:#f2c14e;--fol:#ff6b4d;--accent:#ff6b4d;--glow:#3fb8af26;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15141a;--panel:#201e26;--ink:#f1eee7;--mute:#a59fae;--rule:#34313d;--dot:#15141a;--doc:#3fb8af;--rep:#f2c14e;--fol:#ff6b4d;--accent:#ff6b4d;--glow:#3fb8af26;color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}
+.wrap{max-width:1160px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+header .kicker{font:500 12px/1 var(--f-display);letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+h1{font:700 clamp(26px,4vw,36px)/1.1 var(--f-display);letter-spacing:.01em;margin:6px 0 8px;text-wrap:balance}
+h2{font:700 18px/1.2 var(--f-display);letter-spacing:.02em;margin:0;text-wrap:balance}
+header p{margin:0;color:var(--mute);max-width:64ch}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.controls label{display:flex;gap:6px;align-items:center;cursor:pointer;min-width:0}
+#pick{flex:1 1 280px;min-width:0;width:100%}
+select,input[type=text],textarea{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:7px 9px;max-width:100%}
+button{font:600 14px/1 var(--f-body);color:var(--ink);background:var(--panel);border:1px solid var(--rule);border-radius:999px;padding:9px 14px;cursor:pointer}
+button.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button:disabled{opacity:.55;cursor:default}
+button:focus-visible,select:focus-visible,input:focus-visible,.rel:focus-visible{outline:2px solid var(--doc);outline-offset:2px}
+.grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:820px){.grid{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:16px;min-width:0}
+#mapbox{padding:6px}
+svg#map{display:block;width:100%;height:auto}
+.ring{fill:none;stroke:var(--rule);stroke-width:1.2}
+.ringlabel{fill:var(--mute);font:11px var(--f-mono)}
+.islandring{fill:none;stroke:var(--rule);stroke-width:1.2;stroke-dasharray:3 6}
+.rel{cursor:pointer;transition:transform .6s ease}
+@media (prefers-reduced-motion:reduce){.rel{transition:none}}
+.rel circle{fill:var(--dot);stroke:var(--ink);stroke-width:2.2}
+.rel.album circle{stroke-dasharray:3 2.5}
+.rel.island circle{stroke:var(--mute)}
+.rel text{fill:var(--mute);font:11px var(--f-body);pointer-events:none;opacity:0;transition:opacity .2s}
+.rel:hover text,.rel.on text,.rel.lit text{opacity:1}
+.rel.lit circle{fill:var(--ink)}
+.rel.on circle{fill:var(--accent);stroke:var(--accent)}
+.hub circle{fill:var(--ink)}.hub text{fill:var(--ink);font:700 13px var(--f-display)}
+.seg{fill:none;stroke-width:4;stroke-linecap:round}
+.seg.documented{stroke:var(--doc)}.seg.reported{stroke:var(--rep);stroke-dasharray:9 7}.seg.folklore{stroke:var(--fol);stroke-dasharray:2 7}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--mute);margin:10px 6px 4px}
+.legend svg{display:inline-block;width:34px;height:10px;vertical-align:middle}
+#panel{padding:18px 18px 12px}
+#panel .sub{color:var(--mute);margin:2px 0 12px}
+.stop{font-weight:600;margin:0}
+.stopmeta{color:var(--mute);font-size:13px;margin:0 0 4px}
+.join{border-left:4px solid var(--doc);margin:6px 0 10px 6px;padding:2px 0 4px 12px}
+.join.reported{border-left-style:dashed;border-color:var(--rep)}.join.folklore{border-left-style:dotted;border-color:var(--fol)}
+.join .via{font-weight:600}.join .meta{font-size:13px;color:var(--mute)}
+.g-documented{color:var(--doc)}.g-reported{color:var(--rep)}.g-folklore{color:var(--fol)}
+.join .note{font-size:13px;margin:3px 0}
+.join a{color:var(--mute);font-size:12px;word-break:break-all}
+.empty{color:var(--mute)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.ai{border-top:1px solid var(--rule);margin-top:12px;padding-top:12px}
+.ai .label{font:500 11px/1 var(--f-display);letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.answer{white-space:pre-wrap;margin:0}
+.status{color:var(--mute);font-size:13px}
+.lead{border:1px dashed var(--rule);border-radius:12px;padding:10px 12px;margin:8px 0;display:grid;gap:4px}
+.lead .claim{font-weight:600}
+.lead .meta{font-size:13px;color:var(--mute)}
+.chip{display:inline-block;font:500 11px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:4px 8px;border:1px solid currentColor}
+.chip.unchecked{color:var(--mute)}.chip.confirmed{color:var(--doc)}.chip.rejected{color:var(--fol)}.chip.lead{color:var(--rep)}
+#ask{padding:18px;display:grid;gap:12px}
+#askform{display:flex;gap:8px;flex-wrap:wrap}
+#askform input{flex:1 1 260px;min-width:0}
+.suggest{display:flex;flex-wrap:wrap;gap:6px}
+.suggest button{font-weight:400;font-size:13px;padding:6px 10px}
+.trace{font:12px/1.5 var(--f-mono);color:var(--mute);margin:0;padding:0;list-style:none}
+#leads{padding:18px;display:grid;gap:8px}
+#leadlist{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}
+#leadlist .lead{margin:0}
+footer{color:var(--mute);font-size:12px}
+</style>
+
+<div class="wrap">
+<header><div class="kicker">Patch Bay · Six Degrees</div><h1>The Map of Being Boiled</h1>
+<p>Every record in the gear graph, placed by how many steps it sits from the Human League's 1978 debut. Each step is a shared machine, person or sample. Pick a record to see its chain.</p></header>
+
+<div class="controls">
+<select id="pick" aria-label="Choose a record"></select>
+<label><input type="checkbox" id="strict"> Strict: no cited influences or switching recordings</label>
+<label><input type="checkbox" id="doc"> Documented links only</label>
+</div>
+
+<div class="grid">
+<div class="card" id="mapbox"><svg id="map" viewBox="-430 -430 860 860" role="img" aria-label="Radial map of records by degrees from Being Boiled"></svg>
+<div class="legend"><span><svg viewBox="0 0 34 10"><line x1="2" y1="5" x2="32" y2="5" stroke="var(--doc)" stroke-width="4" stroke-linecap="round"/></svg> documented</span>
+<span><svg viewBox="0 0 34 10"><line x1="2" y1="5" x2="32" y2="5" stroke="var(--rep)" stroke-width="4" stroke-dasharray="9 7" stroke-linecap="round"/></svg> reported</span>
+<span><svg viewBox="0 0 34 10"><line x1="2" y1="5" x2="32" y2="5" stroke="var(--fol)" stroke-width="4" stroke-dasharray="2 7" stroke-linecap="round"/></svg> folklore</span>
+<span>dashed circle = album · outer dashed ring = no chain yet</span></div></div>
+<div class="card" id="panel" aria-live="polite"><p class="empty">Choose a record, or tap one on the map.</p></div>
+</div>
+
+<section class="card" id="ask" hidden>
+<h2>Ask the map</h2>
+<form id="askform"><input type="text" id="q" placeholder="How is Cars connected to Ghosts?" aria-label="Ask a question about the map"><button class="primary" id="askbtn" type="submit">Ask</button><button id="askstop" type="button" hidden>Stop</button></form>
+<div class="suggest" id="suggest"></div>
+<ul class="trace" id="trace"></ul>
+<p class="answer" id="answer"></p>
+<p class="status" id="asknote">Claude answers from the graph only, using its own lookups on this page. Each answer uses your Claude usage.</p>
+</section>
+
+<section class="card" id="leads" hidden>
+<h2>Leads to check</h2>
+<p class="status" id="leadstatus">Loading saved leads…</p>
+<div id="leadlist"></div>
+<p class="status">Leads are Claude's hunches from memory, not facts. Ask Patch Bay in chat to "check the map's leads": it researches each one, grades it, and marks it confirmed or rejected here.</p>
+</section>
+
+<footer id="foot"></footer>
+</div>
+
+<script>
+const D = __DATA__;
+const G = __GRAPH__;
+const GRADES = ['documented', 'reported', 'folklore'];
+const svg = document.getElementById('map'), NS = 'http://www.w3.org/2000/svg';
+const ISLAND = 405;
+let mode = 'loose', current = null;
+const el = (t, a = {}, p = svg) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); p.appendChild(e); return e; };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const maxDeg = () => Math.max(1, ...Object.values(D.modes[mode]).map(c => c.deg));
+const R = d => 62 + d * Math.min(80, 300 / maxDeg());
+const pos = id => {
+  if (id === D.hub.id) return [0, 0];
+  const c = D.modes[mode][id], a = D.nodes[id].ang * Math.PI / 180, r = c ? R(c.deg) : ISLAND;
+  return [Math.round(r * Math.sin(a) * 10) / 10, Math.round(-r * Math.cos(a) * 10) / 10];
+};
+const gRings = el('g'), gSegs = el('g'), gRels = el('g');
+function drawRings() {
+  gRings.innerHTML = '';
+  for (let d = 1; d <= maxDeg(); d++) {
+    el('circle', {class: 'ring', r: R(d)}, gRings);
+    el('text', {class: 'ringlabel', x: 4, y: -R(d) + 14}, gRings).textContent = d + '°';
+  }
+  el('circle', {class: 'islandring', r: ISLAND}, gRings);
+}
+const relEls = {};
+function drawRels() {
+  for (const id in D.nodes) {
+    const n = D.nodes[id];
+    const g = el('g', {class: 'rel' + (n.k === 'album' ? ' album' : ''), tabindex: 0, role: 'button', 'aria-label': n.t + ' by ' + n.a}, gRels);
+    el('circle', {r: 7.5}, g);
+    const right = n.ang < 180;
+    el('text', {x: right ? 12 : -12, y: 4, 'text-anchor': right ? 'start' : 'end'}, g).textContent = n.t.length > 28 ? n.t.slice(0, 27) + '…' : n.t;
+    g.addEventListener('click', () => select(id));
+    g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(id); } });
+    relEls[id] = g;
+  }
+  const h = el('g', {class: 'hub'}, gRels);
+  el('circle', {r: 13}, h);
+  el('text', {y: 32, 'text-anchor': 'middle'}, h).textContent = D.hub.t;
+}
+function place() {
+  for (const id in relEls) {
+    const [x, y] = pos(id); relEls[id].style.transform = `translate(${x}px,${y}px)`;
+    relEls[id].classList.toggle('island', !D.modes[mode][id]);
+  }
+}
+const weakestOf = joins => GRADES[Math.max(...joins.map(j => GRADES.indexOf(j.grade)))];
+
+function select(id) {
+  current = id; document.getElementById('pick').value = id || '';
+  for (const k in relEls) relEls[k].classList.remove('on', 'lit');
+  gSegs.innerHTML = '';
+  const panel = document.getElementById('panel');
+  if (!id) { panel.innerHTML = '<p class="empty">Choose a record, or tap one on the map.</p>'; return; }
+  const n = D.nodes[id], c = D.modes[mode][id];
+  relEls[id].classList.add('on');
+  let h;
+  if (!c) {
+    h = `<h2>${esc(n.t)}</h2><p class="sub">${esc(n.a)} · ${n.y}</p><p>No chain to Being Boiled in this view yet. Try relaxing the filters, or ask Claude for leads to check.</p>`;
+  } else {
+    c.stops.forEach(s => relEls[s] && relEls[s].classList.add('lit'));
+    relEls[id].classList.add('on');
+    for (let i = 0; i < c.joins.length; i++) {
+      const [x1, y1] = pos(c.stops[i]), [x2, y2] = pos(c.stops[i + 1]);
+      el('line', {class: 'seg ' + c.joins[i].grade, x1, y1, x2, y2}, gSegs);
+    }
+    const weakest = weakestOf(c.joins);
+    h = `<h2>${esc(n.t)}</h2><p class="sub">${esc(n.a)} · ${n.y} — <b>${c.deg} degree${c.deg === 1 ? '' : 's'}</b>, weakest link <span class="g-${weakest}">${weakest}</span></p>`;
+    c.stops.forEach((s, i) => {
+      const sn = s === D.hub.id ? D.hub : D.nodes[s];
+      h += `<p class="stop">${sn.k === 'album' ? '[album] ' : ''}${esc(sn.t)}</p><p class="stopmeta">${esc(sn.a)} · ${sn.y}</p>`;
+      if (i < c.joins.length) {
+        const j = c.joins[i], flags = [j.grade].concat(j.album ? ['album-level'] : []).concat(j.influence ? ['cited influence'] : []);
+        h += `<div class="join ${j.grade}"><div class="via">${esc(j.label)}</div><div class="meta">${j.part ? esc(j.part) + ' · ' : ''}<span class="g-${j.grade}">${flags.join(', ')}</span></div>`;
+        j.notes.forEach(t => h += `<p class="note">${esc(t)}</p>`);
+        j.sources.forEach(u => h += `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, ''))}</a><br>`);
+        h += '</div>';
+      }
+    });
+    if (c.switch.length) h += `<p class="g-folklore">Switches recording: ${esc(c.switch.join('; '))}</p>`;
+  }
+  h += `<div class="actions" id="aiactions" hidden>${c ? '<button id="storybtn" type="button">Tell the story</button>' : ''}<button id="leadbtn" type="button">Suggest leads</button><button id="aistop" type="button" hidden>Stop</button></div><div class="ai" id="aiout" hidden></div>`;
+  panel.innerHTML = h;
+  wirePanel(id, c);
+}
+function setMode() {
+  const s = document.getElementById('strict').checked, d = document.getElementById('doc').checked;
+  mode = s && d ? 'strict-documented' : s ? 'strict' : d ? 'documented' : 'loose';
+  drawRings(); place(); select(current);
+}
+const pick = document.getElementById('pick');
+pick.innerHTML = '<option value="">Choose a record…</option>' + Object.keys(D.nodes).sort((a, b) => D.nodes[a].t.localeCompare(D.nodes[b].t))
+  .map(id => `<option value="${id}">${esc(D.nodes[id].t)} — ${esc(D.nodes[id].a)}</option>`).join('');
+pick.addEventListener('change', e => select(e.target.value || null));
+document.getElementById('strict').addEventListener('change', setMode);
+document.getElementById('doc').addEventListener('change', setMode);
+document.getElementById('foot').textContent = `Patch Bay gear graph v${D.version}. Every link is graded and sourced; chains are the shortest the graph knows, not the only ones.`;
+drawRings(); drawRels(); place();
+
+/* ---------- graph functions (mirror scripts/graph.py) ---------- */
+const PEN = {documented: 0, reported: 0.01, folklore: 0.2};
+const isInfluence = e => e.type === 'influenced-by' || (e.type === 'drew-on' && (e.role || '').includes('influence'));
+const weight = e => (e.type === 'on' ? 0 : (isInfluence(e) ? 1 : 0.5)) + PEN[e.grade] + (e.scope === 'album' ? 0.05 : 0);
+const label = id => { const n = G.nodes[id]; if (!n) return id; return n.title ? `${n.kind === 'album' ? '[album] ' : ''}${n.artist} – ${n.title} (${n.year})` : `[${n.kind}] ${n.name}`; };
+const isRel = id => ['song', 'album'].includes(G.nodes[id]?.kind);
+function adjFor(strict, minGrade) {
+  const ok = new Set(GRADES.slice(0, GRADES.indexOf(minGrade) + 1)), adj = {};
+  for (const id in G.nodes) adj[id] = [];
+  for (const e of G.edges) {
+    if (!ok.has(e.grade) || (strict && isInfluence(e)) || !adj[e.from] || !adj[e.to]) continue;
+    adj[e.from].push([e.to, e]); adj[e.to].push([e.from, e]);
+  }
+  return adj;
+}
+function shortest(a, b, strict, minGrade) {
+  const adj = adjFor(strict, minGrade), key = (n, v) => n + '|' + (v || '');
+  const dist = {[key(a)]: 0}, prev = {}, open = [[0, a, null]];
+  let end = null;
+  while (open.length) {
+    open.sort((x, y) => x[0] - y[0]);
+    const [d, n, ver] = open.shift();
+    if (n === b) { end = key(n, ver); break; }
+    if (d > (dist[key(n, ver)] ?? Infinity)) continue;
+    for (const [m, e] of adj[n]) {
+      if (strict && ver && e.version && e.version !== ver) continue;
+      const nv = G.nodes[m].kind === 'song' ? (e.version || null) : null, k = key(m, nv), w = d + weight(e);
+      if (w < (dist[k] ?? Infinity)) { dist[k] = w; prev[k] = [key(n, ver), e, m]; open.push([w, m, nv]); }
+    }
+  }
+  if (!end) return null;
+  const chain = []; let k = end;
+  while (k !== key(a)) { const [pk, e, m] = prev[k]; chain.unshift([pk.split('|')[0], e, m]); k = pk; }
+  return chain;
+}
+function degreesOf(a, chain) {
+  let count = isRel(a) ? 1 : 0, last = isRel(a) ? a : null;
+  for (const [p, e, n] of chain) if (isRel(n)) { if (!(e.type === 'on' && last === p)) count++; last = n; }
+  return Math.max(count - 1, 0);
+}
+function resolveNode(text) {
+  const t = String(text || '').trim().toLowerCase();
+  if (G.nodes[t]) return t;
+  const hits = Object.entries(G.nodes).filter(([id, n]) => {
+    const names = [n.title, n.name, ...(n.aliases || [])].filter(Boolean).map(s => s.toLowerCase());
+    return names.includes(t);
+  }).map(([id]) => id);
+  if (hits.length) return hits[0];
+  const loose = Object.entries(G.nodes).filter(([id, n]) => id.includes(t) || (n.title || n.name || '').toLowerCase().includes(t)).map(([id]) => id);
+  return loose.length === 1 ? loose[0] : null;
+}
+const linkText = e => `${e.type}${e.role ? ' (' + e.role + ')' : ''}${e.part ? ' – ' + e.part : ''}${e.version ? ' [' + e.version + ']' : ''}`;
+const trimNote = s => s && s.length > 220 ? s.slice(0, 219) + '…' : s;
+
+/* ---------- page tools offered to Claude ---------- */
+const traceEl = document.getElementById('trace');
+const trace = t => { const li = document.createElement('li'); li.textContent = t; traceEl.appendChild(li); };
+const TOOLS = [
+  {name: 'search_graph', description: 'Find records, machines and people in the gear graph by name, title or alias. Returns up to 12 matches as {id, label}. Use it first to get ids.',
+   inputSchema: {type: 'object', properties: {text: {type: 'string'}}, required: ['text']},
+   execute({text}) {
+     const t = String(text || '').toLowerCase(); trace(`Searching the graph for “${text}”`);
+     return Object.entries(G.nodes).filter(([id, n]) => id.includes(t) || [n.title, n.name, n.artist, ...(n.aliases || [])].filter(Boolean).some(s => s.toLowerCase().includes(t)))
+       .slice(0, 12).map(([id]) => ({id, label: label(id)}));
+   }},
+  {name: 'describe', description: 'Everything the graph links to one node: each link with its type, role, part, recording version, grade (documented/reported/folklore), scope (track/album) and a short note. Use an id from search_graph.',
+   inputSchema: {type: 'object', properties: {id: {type: 'string'}}, required: ['id']},
+   execute({id}) {
+     const n = resolveNode(id); if (!n) throw new Error('No node with that id or name. Use search_graph first.');
+     trace(`Reading ${label(n)}`);
+     const links = G.edges.filter(e => e.from === n || e.to === n).slice(0, 40).map(e => ({
+       other: label(e.from === n ? e.to : e.from), link: linkText(e), grade: e.grade, scope: e.scope, note: trimNote(e.note)}));
+     return {node: label(n), links};
+   }},
+  {name: 'find_chain', description: 'Shortest chain between two nodes (to defaults to Being Boiled). strict drops cited influences and recording switches; documented_only drops reported and folklore links. Returns degrees, the weakest grade and each step.',
+   inputSchema: {type: 'object', properties: {from: {type: 'string'}, to: {type: 'string'}, strict: {type: 'boolean'}, documented_only: {type: 'boolean'}}, required: ['from']},
+   execute({from, to, strict, documented_only}) {
+     const a = resolveNode(from), b = to ? resolveNode(to) : G.hub;
+     if (!a || !b) throw new Error('Unknown node. Use search_graph to get ids.');
+     trace(`Tracing a chain from ${label(a)} to ${label(b)}`);
+     const ch = shortest(a, b, !!strict, documented_only ? 'documented' : 'folklore');
+     if (!ch) return {found: false, note: 'No chain in the graph with these settings.'};
+     const real = ch.filter(([, e]) => e.type !== 'on');
+     return {found: true, degrees: degreesOf(a, ch), weakest: GRADES[Math.max(...real.map(([, e]) => GRADES.indexOf(e.grade)))],
+       steps: ch.map(([p, e, n]) => ({from: label(p), to: label(n), link: linkText(e), grade: e.grade, scope: e.scope, note: trimNote(e.note)}))};
+   }},
+  {name: 'top_connectors', description: 'Machines or people linked to the most records in the graph, with counts. kind is "machine" or "artist".',
+   inputSchema: {type: 'object', properties: {kind: {type: 'string', enum: ['machine', 'artist']}}, required: ['kind']},
+   execute({kind}) {
+     trace(`Counting the busiest ${kind === 'artist' ? 'people' : 'machines'}`);
+     const count = {};
+     for (const e of G.edges) for (const [x, y] of [[e.from, e.to], [e.to, e.from]])
+       if (G.nodes[x]?.kind === kind && isRel(y)) (count[x] = count[x] || new Set()).add(y);
+     return Object.entries(count).map(([id, s]) => ({name: label(id), records: s.size})).sort((p, q) => q.records - p.records).slice(0, 10);
+   }},
+  {name: 'show_on_map', description: 'Select a record on the map so the viewer sees its chain to Being Boiled. Use it when the answer is about one record.',
+   inputSchema: {type: 'object', properties: {id: {type: 'string'}}, required: ['id']},
+   execute({id}) {
+     const n = resolveNode(id); if (!n || !D.nodes[n]) throw new Error('That is not a record on the map.');
+     trace(`Showing ${label(n)} on the map`); select(n); return 'shown';
+   }},
+];
+const ASK_RULES = `You are answering questions about Patch Bay's gear graph: a hand-checked map of British synth pop records (1978-1986), the machines used on them and the people who made them, centred on the Human League's "Being Boiled". Use ONLY what the tools return. Do not add facts from memory, not even well-known ones; if the graph does not hold the answer, say so plainly and suggest asking Patch Bay in chat to research it. Every claim about a machine on a record carries its grade in words (documented, reported, folklore); say when a credit is album-level rather than track-level. Degrees count song-to-song steps. Answer in British English, warmly and briefly: at most 150 words, plain text, no headings or markdown.`;
+
+const copyFor = code => ({
+  not_granted: 'Claude is switched off for this page. You can allow it from the page’s permissions.',
+  sampling_disabled: 'Claude isn’t available on this account.',
+  rate_limited: 'Too many requests just now. Try again in a little while.',
+  session_expired: 'Your session has expired. Sign in again to use Claude here.',
+  refused: 'Claude declined that one. Try asking it differently.',
+  empty_completion: 'Claude came back empty-handed. Try a simpler question.',
+  invalid_json: 'Claude’s answer came back garbled. Try again.',
+  prompt_too_large: 'That was too much to send at once.',
+  tools_unavailable: 'This view can’t run the map’s lookups.',
+})[code] || 'Something went wrong reaching Claude. Try again.';
+const HIDE = new Set(['not_granted', 'sampling_disabled', 'not_declared', 'capability_disabled', 'capability_removed', 'tools_unavailable']);
+
+/* ---------- capabilities light up when the page is published ---------- */
+let sample = null, db = null, user = null, uid = null, leadsCache = [];
+
+function wireAsk() {
+  const box = document.getElementById('ask'), form = document.getElementById('askform'), q = document.getElementById('q');
+  const ans = document.getElementById('answer'), note = document.getElementById('asknote'), btn = document.getElementById('askbtn'), stop = document.getElementById('askstop');
+  box.hidden = false;
+  const sug = ['Which machine links the most records?', 'How is Cars connected to Ghosts?', 'What’s the best-documented route from Relax to Being Boiled?', 'What does the graph know about Daniel Miller?'];
+  document.getElementById('suggest').innerHTML = sug.map(s => `<button type="button">${esc(s)}</button>`).join('');
+  document.querySelectorAll('#suggest button').forEach(b => b.onclick = () => { q.value = b.textContent; form.requestSubmit(); });
+  let ctl = null;
+  stop.onclick = () => ctl?.abort();
+  form.addEventListener('submit', async ev => {
+    ev.preventDefault();
+    const question = q.value.trim(); if (!question || !sample) return;
+    ctl = new AbortController(); btn.disabled = true; stop.hidden = false;
+    traceEl.innerHTML = ''; ans.textContent = 'Thinking…'; note.textContent = '';
+    try {
+      await sample(ASK_RULES + '\n\nQuestion: ' + question, {tools: TOOLS, modelTier: 'quick', signal: ctl.signal, onText: ({text}) => { ans.textContent = text; }});
+      note.textContent = 'Answered from the graph. Check grades before quoting.';
+    } catch (e) {
+      ans.textContent = e.text || '';
+      if (e.code !== 'cancelled') note.textContent = copyFor(e.code);
+      if (HIDE.has(e.code)) box.hidden = true;
+    } finally { btn.disabled = false; stop.hidden = true; }
+  });
+}
+
+function wirePanel(id, chain) {
+  if (!sample) return;
+  const actions = document.getElementById('aiactions'), out = document.getElementById('aiout'), stop = document.getElementById('aistop');
+  actions.hidden = false;
+  let ctl = null;
+  stop.onclick = () => ctl?.abort();
+  const busy = on => { actions.querySelectorAll('button:not(#aistop)').forEach(b => b.disabled = on); stop.hidden = !on; };
+  const storyBtn = document.getElementById('storybtn');
+  if (storyBtn) storyBtn.onclick = async () => {
+    ctl = new AbortController(); busy(true); out.hidden = false;
+    out.innerHTML = '<div class="label">The story</div><p class="answer" id="story">Thinking…</p><p class="status" id="storynote"></p>';
+    const facts = chain.joins.map((j, i) => {
+      const a = chain.stops[i] === D.hub.id ? D.hub : D.nodes[chain.stops[i]], b = chain.stops[i + 1] === D.hub.id ? D.hub : D.nodes[chain.stops[i + 1]];
+      return `Step ${i + 1}: "${a.t}" (${a.a}, ${a.y}) to "${b.t}" (${b.a}, ${b.y}) via ${j.label}${j.part ? ' (' + j.part + ')' : ''}. Grade: ${j.grade}${j.album ? ', album-level credit' : ''}${j.influence ? ', a cited influence' : ''}. Notes: ${j.notes.join(' ') || 'none'}`;
+    }).join('\n');
+    const prompt = `Write a short, vivid story (120-180 words, British English, plain text, no headings) of how one record leads to another through shared machines and people. Use ONLY the facts below; do not add any detail from memory. Mention each link's grade in passing (documented, reported or folklore), and flag album-level credits honestly. End on Being Boiled.\n\n${facts}`;
+    try {
+      await sample(prompt, {signal: ctl.signal, onText: ({text}) => { document.getElementById('story').textContent = text; }});
+      document.getElementById('storynote').textContent = 'Written by Claude from the graph’s notes only.';
+    } catch (e) {
+      document.getElementById('story').textContent = e.text || '';
+      if (e.code !== 'cancelled') document.getElementById('storynote').textContent = copyFor(e.code);
+    } finally { busy(false); }
+  };
+  document.getElementById('leadbtn').onclick = async () => {
+    ctl = new AbortController(); busy(true); out.hidden = false;
+    out.innerHTML = '<div class="label">Leads to check</div><p class="status" id="leadnote">Thinking…</p><div id="leadsout"></div>';
+    const n = D.nodes[id];
+    const known = Object.values(G.nodes).map(x => x.title ? `${x.title} (${x.artist})` : x.name).join('; ');
+    const prompt = `Patch Bay keeps a graded gear graph of British synth pop. The record "${n.t}" by ${n.a} (${n.y}) needs more links. Suggest up to 3 possible links between it and anything already in the graph: a machine both records used, a person credited on both, or a sample. Draw on your own knowledge, but these are LEADS for a researcher to verify, not facts: include only ones you think are genuinely likely, say how confident you are, and say what a researcher should look for (for example a named interview, the sleeve credits, a studio feature). Never give URLs. Already in the graph: ${known}.\n\nReply with only a JSON array of objects: {"connects_to": exact name from the list above, "via": the machine, person or sample, "claim": one sentence, "confidence": "likely" or "possible", "check_by": what to look for}. An empty array is a fine answer.`;
+    try {
+      const leads = await sample.json(prompt, {signal: ctl.signal});
+      const list = Array.isArray(leads) ? leads.filter(l => l && l.claim).slice(0, 3) : [];
+      document.getElementById('leadnote').textContent = list.length ? 'Unchecked hunches from Claude’s memory. Save the ones worth checking.' : 'Claude has no likely leads for this one.';
+      document.getElementById('leadsout').innerHTML = list.map((l, i) => `<div class="lead"><div><span class="chip lead">unchecked lead</span> <span class="status">${esc(l.confidence || '')}</span></div><div class="claim">${esc(l.claim)}</div><div class="meta">Connects to ${esc(l.connects_to || '?')} via ${esc(l.via || '?')}. Check: ${esc(l.check_by || '')}</div>${db ? `<div><button type="button" data-i="${i}">Save to the queue</button></div>` : ''}</div>`).join('');
+      document.querySelectorAll('#leadsout button[data-i]').forEach(b => b.onclick = async () => {
+        const l = list[+b.dataset.i]; b.disabled = true; b.textContent = 'Saving…';
+        try {
+          await db.collection('leads').add({record: id, recordLabel: `${n.t} – ${n.a}`, connectsTo: String(l.connects_to || ''), via: String(l.via || ''),
+            claim: String(l.claim), confidence: String(l.confidence || ''), checkBy: String(l.check_by || ''), status: 'unchecked', addedBy: uid, addedAt: new Date().toISOString()});
+          b.textContent = 'Saved';
+        } catch (e) { b.disabled = false; b.textContent = e.code === 'quota_exceeded' ? 'The queue is full' : 'Couldn’t save. Try again'; }
+      });
+    } catch (e) {
+      document.getElementById('leadnote').textContent = e.code === 'cancelled' ? '' : copyFor(e.code);
+    } finally { busy(false); }
+  };
+}
+
+function renderLeads() {
+  const list = document.getElementById('leadlist'), status = document.getElementById('leadstatus');
+  if (!leadsCache.length) { status.textContent = 'No leads yet. Pick an island on the map, choose Suggest leads, and save the promising ones here.'; list.innerHTML = ''; return; }
+  const counts = leadsCache.reduce((m, l) => (m[l.status] = (m[l.status] || 0) + 1, m), {});
+  status.textContent = `${leadsCache.length} saved · ${counts.unchecked || 0} waiting · ${counts.confirmed || 0} confirmed · ${counts.rejected || 0} rejected`;
+  list.innerHTML = leadsCache.map(l => `<div class="lead"><div><span class="chip ${esc(l.status)}">${esc(l.status)}</span>${l.grade ? ` <span class="g-${esc(l.grade)}">${esc(l.grade)}</span>` : ''}</div><div class="claim">${esc(l.claim)}</div><div class="meta">${esc(l.recordLabel)} → ${esc(l.connectsTo)} via ${esc(l.via)}</div>${l.verdict ? `<div class="meta">${esc(l.verdict)}</div>` : ''}${l.sourceUrl ? `<a class="meta" href="${esc(l.sourceUrl)}" target="_blank" rel="noopener">${esc(l.sourceUrl.replace(/^https?:\/\/(www\.)?/, ''))}</a>` : ''}</div>`).join('');
+}
+
+(async () => {
+  if (!window.claude?.use) return;           // a saved file: the static map is the whole page
+  const [s, d, u] = await Promise.all([claude.use('sample'), claude.use('db'), claude.use('user')]);
+  sample = s; db = d; user = u;
+  if (user) { try { uid = await user.id(); } catch { uid = null; } }
+  if (sample) { wireAsk(); if (current) select(current); }
+  if (db) {
+    document.getElementById('leads').hidden = false;
+    const timer = setTimeout(() => { document.getElementById('leadstatus').textContent = 'The lead queue can’t be reached yet.'; }, 10000);
+    db.collection('leads').orderBy('addedAt', 'desc').limit(200).onSnapshot(snap => {
+      if (!snap.metadata.fromCache) clearTimeout(timer);
+      leadsCache = snap.docs.map(x => ({id: x.id, ...x.data()})); renderLeads();
+    }, () => { clearTimeout(timer); document.getElementById('leadstatus').textContent = 'The lead queue isn’t available in this view.'; });
+  }
+})();
+</script>

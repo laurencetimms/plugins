@@ -1,0 +1,4172 @@
+{
+ "version": "0.4.0",
+ "hub": "being-boiled",
+ "built": "2026-11-01",
+ "nodes": {
+  "being-boiled": {
+   "kind": "song",
+   "title": "Being Boiled",
+   "artist": "The Human League",
+   "year": 1978
+  },
+  "spiral": {
+   "kind": "song",
+   "title": "Spiral",
+   "artist": "Vangelis",
+   "year": 1977
+  },
+  "dare": {
+   "kind": "album",
+   "title": "Dare",
+   "artist": "The Human League",
+   "year": 1981
+  },
+  "get-carter": {
+   "kind": "song",
+   "title": "Get Carter",
+   "artist": "The Human League",
+   "year": 1981
+  },
+  "dont-you-want-me": {
+   "kind": "song",
+   "title": "Don't You Want Me",
+   "artist": "The Human League",
+   "year": 1981
+  },
+  "love-action": {
+   "kind": "song",
+   "title": "Love Action (I Believe in Love)",
+   "artist": "The Human League",
+   "year": 1981
+  },
+  "da-da-da": {
+   "kind": "song",
+   "title": "Da Da Da",
+   "artist": "Trio",
+   "year": 1982
+  },
+  "hanging-around": {
+   "kind": "song",
+   "title": "Hanging Around",
+   "artist": "Hazel O'Connor",
+   "year": 1981
+  },
+  "penthouse-and-pavement": {
+   "kind": "album",
+   "title": "Penthouse and Pavement",
+   "artist": "Heaven 17",
+   "year": 1981
+  },
+  "fascist-groove-thang": {
+   "kind": "song",
+   "title": "(We Don't Need This) Fascist Groove Thang",
+   "artist": "Heaven 17",
+   "year": 1981
+  },
+  "together-in-electric-dreams": {
+   "kind": "song",
+   "title": "Together in Electric Dreams",
+   "artist": "Philip Oakey & Giorgio Moroder",
+   "year": 1984
+  },
+  "i-feel-love": {
+   "kind": "song",
+   "title": "I Feel Love",
+   "artist": "Donna Summer",
+   "year": 1977
+  },
+  "bad-girls": {
+   "kind": "album",
+   "title": "Bad Girls",
+   "artist": "Donna Summer",
+   "year": 1979
+  },
+  "our-love": {
+   "kind": "song",
+   "title": "Our Love",
+   "artist": "Donna Summer",
+   "year": 1979
+  },
+  "sexual-healing": {
+   "kind": "song",
+   "title": "Sexual Healing",
+   "artist": "Marvin Gaye",
+   "year": 1982
+  },
+  "planet-rock": {
+   "kind": "song",
+   "title": "Planet Rock",
+   "artist": "Afrika Bambaataa & the Soulsonic Force",
+   "year": 1982
+  },
+  "numbers": {
+   "kind": "song",
+   "title": "Numbers",
+   "artist": "Kraftwerk",
+   "year": 1981
+  },
+  "trans-europe-express": {
+   "kind": "song",
+   "title": "Trans-Europe Express",
+   "artist": "Kraftwerk",
+   "year": 1977
+  },
+  "uranium": {
+   "kind": "song",
+   "title": "Uranium",
+   "artist": "Kraftwerk",
+   "year": 1975
+  },
+  "blue-monday": {
+   "kind": "song",
+   "title": "Blue Monday",
+   "artist": "New Order",
+   "year": 1983
+  },
+  "dirty-talk": {
+   "kind": "song",
+   "title": "Dirty Talk",
+   "artist": "Klein + M.B.O.",
+   "year": 1982
+  },
+  "you-make-me-feel": {
+   "kind": "song",
+   "title": "You Make Me Feel (Mighty Real)",
+   "artist": "Sylvester",
+   "year": 1978
+  },
+  "jump": {
+   "kind": "song",
+   "title": "Jump",
+   "artist": "Van Halen",
+   "year": 1983
+  },
+  "when-doves-cry": {
+   "kind": "song",
+   "title": "When Doves Cry",
+   "artist": "Prince",
+   "year": 1984
+  },
+  "1999": {
+   "kind": "song",
+   "title": "1999",
+   "artist": "Prince",
+   "year": 1982
+  },
+  "sweet-dreams": {
+   "kind": "song",
+   "title": "Sweet Dreams (Are Made of This)",
+   "artist": "Eurythmics",
+   "year": 1983
+  },
+  "tainted-love": {
+   "kind": "song",
+   "title": "Tainted Love",
+   "artist": "Soft Cell",
+   "year": 1981
+  },
+  "take-on-me": {
+   "kind": "song",
+   "title": "Take On Me",
+   "artist": "a-ha",
+   "year": 1985
+  },
+  "pleasure-principle": {
+   "kind": "album",
+   "title": "The Pleasure Principle",
+   "artist": "Gary Numan",
+   "year": 1979
+  },
+  "cars": {
+   "kind": "song",
+   "title": "Cars",
+   "artist": "Gary Numan",
+   "year": 1979
+  },
+  "roland-system-100": {
+   "kind": "machine",
+   "name": "Roland System 100",
+   "aliases": [
+    "System-100",
+    "System 100",
+    "SH-1 System 100"
+   ]
+  },
+  "korg-700s": {
+   "kind": "machine",
+   "name": "Korg 700S (miniKORG 700S)",
+   "aliases": [
+    "miniKORG 700S",
+    "Korg 700",
+    "700S"
+   ]
+  },
+  "linn-lm1": {
+   "kind": "machine",
+   "name": "Linn LM-1 Drum Computer",
+   "aliases": [
+    "LM-1",
+    "Linn Drum Computer"
+   ]
+  },
+  "linndrum": {
+   "kind": "machine",
+   "name": "LinnDrum (LM-2)",
+   "aliases": [
+    "LM-2",
+    "Linn LinnDrum"
+   ]
+  },
+  "roland-jupiter-4": {
+   "kind": "machine",
+   "name": "Roland Jupiter-4",
+   "aliases": [
+    "Jupiter-4",
+    "JP-4"
+   ]
+  },
+  "roland-jupiter-8": {
+   "kind": "machine",
+   "name": "Roland Jupiter-8",
+   "aliases": [
+    "Jupiter-8",
+    "JP-8"
+   ]
+  },
+  "roland-system-700": {
+   "kind": "machine",
+   "name": "Roland System 700"
+  },
+  "roland-mc8": {
+   "kind": "machine",
+   "name": "Roland MC-8 MicroComposer",
+   "aliases": [
+    "MC-8",
+    "MicroComposer"
+   ]
+  },
+  "casio-vl1": {
+   "kind": "machine",
+   "name": "Casio VL-1 (VL-Tone)",
+   "aliases": [
+    "VL-Tone",
+    "VL-1",
+    "VL1"
+   ]
+  },
+  "moog-modular": {
+   "kind": "machine",
+   "name": "Moog modular",
+   "aliases": [
+    "Moog modular",
+    "Moog IIIc",
+    "Moog System 55"
+   ]
+  },
+  "minimoog": {
+   "kind": "machine",
+   "name": "Minimoog",
+   "aliases": [
+    "Minimoog Model D",
+    "Mini Moog"
+   ]
+  },
+  "polymoog": {
+   "kind": "machine",
+   "name": "Moog Polymoog"
+  },
+  "arp-odyssey": {
+   "kind": "machine",
+   "name": "ARP Odyssey"
+  },
+  "roland-tr808": {
+   "kind": "machine",
+   "name": "Roland TR-808",
+   "aliases": [
+    "TR-808",
+    "808",
+    "Roland 808"
+   ]
+  },
+  "prophet-5": {
+   "kind": "machine",
+   "name": "Sequential Circuits Prophet-5",
+   "aliases": [
+    "Prophet 5",
+    "Sequential Prophet-5"
+   ]
+  },
+  "micromoog": {
+   "kind": "machine",
+   "name": "Moog Micromoog"
+  },
+  "fairlight-cmi": {
+   "kind": "machine",
+   "name": "Fairlight CMI",
+   "aliases": [
+    "Fairlight"
+   ]
+  },
+  "oberheim-dmx": {
+   "kind": "machine",
+   "name": "Oberheim DMX",
+   "aliases": [
+    "DMX"
+   ]
+  },
+  "moog-source": {
+   "kind": "machine",
+   "name": "Moog Source",
+   "aliases": [
+    "Source"
+   ]
+  },
+  "emulator-1": {
+   "kind": "machine",
+   "name": "E-mu Emulator",
+   "aliases": [
+    "Emulator",
+    "Emulator I",
+    "E-mu Emulator"
+   ]
+  },
+  "oberheim-obxa": {
+   "kind": "machine",
+   "name": "Oberheim OB-Xa",
+   "aliases": [
+    "OB-Xa",
+    "OBXa"
+   ]
+  },
+  "oberheim-obx": {
+   "kind": "machine",
+   "name": "Oberheim OB-X",
+   "aliases": [
+    "OB-X",
+    "OBX"
+   ]
+  },
+  "movement-drum-computer": {
+   "kind": "machine",
+   "name": "Movement Systems Drum Computer",
+   "aliases": [
+    "MCS Drum Computer",
+    "Movement Drum Computer"
+   ]
+  },
+  "roland-sh101": {
+   "kind": "machine",
+   "name": "Roland SH-101",
+   "aliases": [
+    "SH-101",
+    "SH101"
+   ]
+  },
+  "synclavier": {
+   "kind": "machine",
+   "name": "New England Digital Synclavier",
+   "aliases": [
+    "Synclavier II"
+   ]
+  },
+  "roland-juno60": {
+   "kind": "machine",
+   "name": "Roland Juno-60",
+   "aliases": [
+    "Juno-60",
+    "Juno 60"
+   ]
+  },
+  "the-human-league": {
+   "kind": "artist",
+   "name": "The Human League",
+   "aliases": [
+    "Human League"
+   ]
+  },
+  "philip-oakey": {
+   "kind": "artist",
+   "name": "Philip Oakey",
+   "aliases": [
+    "Phil Oakey"
+   ]
+  },
+  "martyn-ware": {
+   "kind": "artist",
+   "name": "Martyn Ware"
+  },
+  "ian-craig-marsh": {
+   "kind": "artist",
+   "name": "Ian Craig Marsh"
+  },
+  "heaven-17": {
+   "kind": "artist",
+   "name": "Heaven 17"
+  },
+  "glenn-gregory": {
+   "kind": "artist",
+   "name": "Glenn Gregory"
+  },
+  "martin-rushent": {
+   "kind": "artist",
+   "name": "Martin Rushent"
+  },
+  "vangelis": {
+   "kind": "artist",
+   "name": "Vangelis"
+  },
+  "trio": {
+   "kind": "artist",
+   "name": "Trio"
+  },
+  "hazel-oconnor": {
+   "kind": "artist",
+   "name": "Hazel O'Connor"
+  },
+  "giorgio-moroder": {
+   "kind": "artist",
+   "name": "Giorgio Moroder",
+   "aliases": [
+    "Moroder"
+   ]
+  },
+  "pete-bellotte": {
+   "kind": "artist",
+   "name": "Pete Bellotte"
+  },
+  "donna-summer": {
+   "kind": "artist",
+   "name": "Donna Summer"
+  },
+  "harold-faltermeyer": {
+   "kind": "artist",
+   "name": "Harold Faltermeyer"
+  },
+  "marvin-gaye": {
+   "kind": "artist",
+   "name": "Marvin Gaye"
+  },
+  "afrika-bambaataa": {
+   "kind": "artist",
+   "name": "Afrika Bambaataa & the Soulsonic Force",
+   "aliases": [
+    "Afrika Bambaataa",
+    "Soulsonic Force"
+   ]
+  },
+  "arthur-baker": {
+   "kind": "artist",
+   "name": "Arthur Baker"
+  },
+  "john-robie": {
+   "kind": "artist",
+   "name": "John Robie"
+  },
+  "kraftwerk": {
+   "kind": "artist",
+   "name": "Kraftwerk"
+  },
+  "new-order": {
+   "kind": "artist",
+   "name": "New Order"
+  },
+  "klein-mbo": {
+   "kind": "artist",
+   "name": "Klein + M.B.O."
+  },
+  "sylvester": {
+   "kind": "artist",
+   "name": "Sylvester"
+  },
+  "van-halen": {
+   "kind": "artist",
+   "name": "Van Halen"
+  },
+  "ted-templeman": {
+   "kind": "artist",
+   "name": "Ted Templeman"
+  },
+  "prince": {
+   "kind": "artist",
+   "name": "Prince"
+  },
+  "eurythmics": {
+   "kind": "artist",
+   "name": "Eurythmics"
+  },
+  "soft-cell": {
+   "kind": "artist",
+   "name": "Soft Cell"
+  },
+  "mike-thorne": {
+   "kind": "artist",
+   "name": "Mike Thorne"
+  },
+  "a-ha": {
+   "kind": "artist",
+   "name": "a-ha"
+  },
+  "alan-tarney": {
+   "kind": "artist",
+   "name": "Alan Tarney"
+  },
+  "gary-numan": {
+   "kind": "artist",
+   "name": "Gary Numan"
+  },
+  "video-killed-the-radio-star": {
+   "kind": "song",
+   "title": "Video Killed The Radio Star",
+   "artist": "The Buggles",
+   "year": 1979
+  },
+  "people-are-people": {
+   "kind": "song",
+   "title": "People Are People",
+   "artist": "Depeche Mode",
+   "year": 1984
+  },
+  "the-look-of-love": {
+   "kind": "song",
+   "title": "The Look Of Love",
+   "artist": "ABC",
+   "year": 1982
+  },
+  "relax": {
+   "kind": "song",
+   "title": "Relax",
+   "artist": "Frankie Goes To Hollywood",
+   "year": 1983
+  },
+  "the-reflex": {
+   "kind": "song",
+   "title": "The Reflex",
+   "artist": "Duran Duran",
+   "year": 1984
+  },
+  "nineteen": {
+   "kind": "song",
+   "title": "19",
+   "artist": "Paul Hardcastle",
+   "year": 1985,
+   "aliases": [
+    "19",
+    "Nineteen"
+   ]
+  },
+  "iou": {
+   "kind": "song",
+   "title": "IOU",
+   "artist": "Freeez",
+   "year": 1983
+  },
+  "ghosts": {
+   "kind": "song",
+   "title": "Ghosts",
+   "artist": "Japan",
+   "year": 1982
+  },
+  "roland-800-unidentified": {
+   "kind": "machine",
+   "name": "Roland '800' (as Martin Rushent names it; exact model unclear)"
+  },
+  "emulator-2": {
+   "kind": "machine",
+   "name": "E-mu Emulator II",
+   "aliases": [
+    "Emulator II",
+    "EII"
+   ]
+  },
+  "emu-drumulator": {
+   "kind": "machine",
+   "name": "E-mu Drumulator",
+   "aliases": [
+    "Drumulator"
+   ]
+  },
+  "arp-2600": {
+   "kind": "machine",
+   "name": "ARP 2600",
+   "aliases": [
+    "2600"
+   ]
+  },
+  "arp-sequencer": {
+   "kind": "machine",
+   "name": "ARP sequencer (model not named)"
+  },
+  "roland-mc4": {
+   "kind": "machine",
+   "name": "Roland MC-4 MicroComposer",
+   "aliases": [
+    "MC-4",
+    "MC4"
+   ]
+  },
+  "roland-gr300": {
+   "kind": "machine",
+   "name": "Roland GR-300 guitar synthesizer",
+   "aliases": [
+    "GR-300",
+    "GR300"
+   ]
+  },
+  "yamaha-dx7": {
+   "kind": "machine",
+   "name": "Yamaha DX7",
+   "aliases": [
+    "DX7",
+    "DX-7"
+   ]
+  },
+  "ppg-wave": {
+   "kind": "machine",
+   "name": "PPG Wave",
+   "aliases": [
+    "PPG"
+   ]
+  },
+  "umi-computer": {
+   "kind": "machine",
+   "name": "UMI sequencing computer",
+   "aliases": [
+    "UMI"
+   ]
+  },
+  "trevor-horn": {
+   "kind": "artist",
+   "name": "Trevor Horn",
+   "aliases": [
+    "Horn"
+   ]
+  },
+  "geoff-downes": {
+   "kind": "artist",
+   "name": "Geoff Downes"
+  },
+  "bruce-woolley": {
+   "kind": "artist",
+   "name": "Bruce Woolley"
+  },
+  "gary-langan": {
+   "kind": "artist",
+   "name": "Gary Langan"
+  },
+  "hugh-padgham": {
+   "kind": "artist",
+   "name": "Hugh Padgham"
+  },
+  "the-buggles": {
+   "kind": "artist",
+   "name": "The Buggles"
+  },
+  "abc": {
+   "kind": "artist",
+   "name": "ABC",
+   "aliases": [
+    "ABC (band)"
+   ]
+  },
+  "martin-fry": {
+   "kind": "artist",
+   "name": "Martin Fry"
+  },
+  "anne-dudley": {
+   "kind": "artist",
+   "name": "Anne Dudley"
+  },
+  "jj-jeczalik": {
+   "kind": "artist",
+   "name": "JJ Jeczalik",
+   "aliases": [
+    "J.J. Jeczalik"
+   ]
+  },
+  "david-palmer": {
+   "kind": "artist",
+   "name": "David Palmer"
+  },
+  "julian-mendelsohn": {
+   "kind": "artist",
+   "name": "Julian Mendelsohn"
+  },
+  "frankie-goes-to-hollywood": {
+   "kind": "artist",
+   "name": "Frankie Goes To Hollywood"
+  },
+  "holly-johnson": {
+   "kind": "artist",
+   "name": "Holly Johnson"
+  },
+  "steve-lipson": {
+   "kind": "artist",
+   "name": "Steve Lipson"
+  },
+  "andy-richards": {
+   "kind": "artist",
+   "name": "Andy Richards"
+  },
+  "depeche-mode": {
+   "kind": "artist",
+   "name": "Depeche Mode"
+  },
+  "daniel-miller": {
+   "kind": "artist",
+   "name": "Daniel Miller"
+  },
+  "gareth-jones": {
+   "kind": "artist",
+   "name": "Gareth Jones"
+  },
+  "alan-wilder": {
+   "kind": "artist",
+   "name": "Alan Wilder"
+  },
+  "martin-gore": {
+   "kind": "artist",
+   "name": "Martin Gore"
+  },
+  "dave-gahan": {
+   "kind": "artist",
+   "name": "Dave Gahan"
+  },
+  "dave-stewart": {
+   "kind": "artist",
+   "name": "Dave Stewart"
+  },
+  "annie-lennox": {
+   "kind": "artist",
+   "name": "Annie Lennox"
+  },
+  "jo-callis": {
+   "kind": "artist",
+   "name": "Jo Callis"
+  },
+  "susan-ann-sulley": {
+   "kind": "artist",
+   "name": "Susan Ann Sulley"
+  },
+  "joanne-catherall": {
+   "kind": "artist",
+   "name": "Joanne Catherall"
+  },
+  "japan": {
+   "kind": "artist",
+   "name": "Japan",
+   "aliases": [
+    "Japan (band)"
+   ]
+  },
+  "david-sylvian": {
+   "kind": "artist",
+   "name": "David Sylvian"
+  },
+  "richard-barbieri": {
+   "kind": "artist",
+   "name": "Richard Barbieri"
+  },
+  "steve-jansen": {
+   "kind": "artist",
+   "name": "Steve Jansen"
+  },
+  "steve-nye": {
+   "kind": "artist",
+   "name": "Steve Nye"
+  },
+  "duran-duran": {
+   "kind": "artist",
+   "name": "Duran Duran"
+  },
+  "alex-sadkin": {
+   "kind": "artist",
+   "name": "Alex Sadkin"
+  },
+  "ian-little": {
+   "kind": "artist",
+   "name": "Ian Little"
+  },
+  "nile-rodgers": {
+   "kind": "artist",
+   "name": "Nile Rodgers"
+  },
+  "nick-rhodes": {
+   "kind": "artist",
+   "name": "Nick Rhodes"
+  },
+  "paul-hardcastle": {
+   "kind": "artist",
+   "name": "Paul Hardcastle"
+  },
+  "freeez": {
+   "kind": "artist",
+   "name": "Freeez"
+  },
+  "john-rocca": {
+   "kind": "artist",
+   "name": "John Rocca"
+  },
+  "andy-stennett": {
+   "kind": "artist",
+   "name": "Andy Stennett"
+  },
+  "everton-mccalla": {
+   "kind": "artist",
+   "name": "Everton McCalla"
+  },
+  "jellybean-benitez": {
+   "kind": "artist",
+   "name": "John 'Jellybean' Benitez",
+   "aliases": [
+    "Jellybean"
+   ]
+  },
+  "pal-waaktaar": {
+   "kind": "artist",
+   "name": "Pål Waaktaar",
+   "aliases": [
+    "Paul Waaktaar",
+    "Pål Waaktaar-Savoy"
+   ]
+  },
+  "magne-furuholmen": {
+   "kind": "artist",
+   "name": "Magne Furuholmen",
+   "aliases": [
+    "Mags"
+   ]
+  },
+  "morten-harket": {
+   "kind": "artist",
+   "name": "Morten Harket"
+  },
+  "gerry-kitchingham": {
+   "kind": "artist",
+   "name": "Gerry Kitchingham"
+  },
+  "tvod-warm-leatherette": {
+   "kind": "song",
+   "title": "T.V.O.D. / Warm Leatherette",
+   "artist": "The Normal",
+   "year": 1978,
+   "aliases": [
+    "Warm Leatherette",
+    "TVOD",
+    "T.V.O.D."
+   ]
+  },
+  "photographic": {
+   "kind": "song",
+   "title": "Photographic",
+   "artist": "Depeche Mode",
+   "year": 1981
+  },
+  "speak-and-spell": {
+   "kind": "album",
+   "title": "Speak & Spell",
+   "artist": "Depeche Mode",
+   "year": 1981
+  },
+  "a-broken-frame": {
+   "kind": "album",
+   "title": "A Broken Frame",
+   "artist": "Depeche Mode",
+   "year": 1982
+  },
+  "are-friends-electric": {
+   "kind": "song",
+   "title": "Are 'Friends' Electric?",
+   "artist": "Tubeway Army",
+   "year": 1979,
+   "aliases": [
+    "Are Friends Electric"
+   ]
+  },
+  "metamatic": {
+   "kind": "album",
+   "title": "Metamatic",
+   "artist": "John Foxx",
+   "year": 1980
+  },
+  "hes-a-liquid": {
+   "kind": "song",
+   "title": "He's A Liquid",
+   "artist": "John Foxx",
+   "year": 1980
+  },
+  "twilights-last-gleaming": {
+   "kind": "song",
+   "title": "Twilight's Last Gleaming",
+   "artist": "John Foxx",
+   "year": 1983
+  },
+  "dazzle-ships": {
+   "kind": "album",
+   "title": "Dazzle Ships",
+   "artist": "Orchestral Manoeuvres in the Dark",
+   "year": 1983
+  },
+  "roland-cr78": {
+   "kind": "machine",
+   "name": "Roland CR-78 CompuRhythm",
+   "aliases": [
+    "CR-78",
+    "CR78",
+    "CompuRhythm"
+   ]
+  },
+  "the-normal": {
+   "kind": "artist",
+   "name": "The Normal"
+  },
+  "vince-clarke": {
+   "kind": "artist",
+   "name": "Vince Clarke"
+  },
+  "tubeway-army": {
+   "kind": "artist",
+   "name": "Tubeway Army"
+  },
+  "john-foxx": {
+   "kind": "artist",
+   "name": "John Foxx"
+  },
+  "mike-howlett": {
+   "kind": "artist",
+   "name": "Mike Howlett"
+  },
+  "omd": {
+   "kind": "artist",
+   "name": "Orchestral Manoeuvres in the Dark",
+   "aliases": [
+    "OMD"
+   ]
+  }
+ },
+ "edges": [
+  {
+   "from": "being-boiled",
+   "to": "roland-system-100",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-system100",
+    "matrixsynth-boiled",
+    "ware-video"
+   ],
+   "note": "Made with just the System 100, a Korg 700S and Oakey's voice; the drum beat was built entirely on the System 100, using a sequencer channel to modulate the clock speed. Martyn Ware has demonstrated it on the original machines.",
+   "checked": "2026-11-01",
+   "part": "sequences and drums",
+   "version": "1978 original"
+  },
+  {
+   "from": "being-boiled",
+   "to": "korg-700s",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-system100",
+    "matrixsynth-boiled",
+    "ware-video"
+   ],
+   "checked": "2026-11-01",
+   "version": "1978 original"
+  },
+  {
+   "from": "being-boiled",
+   "to": "the-human-league",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-being-boiled"
+   ],
+   "role": "performer, producer",
+   "note": "Original 1978 recording, made in a disused Sheffield factory on a domestic tape recorder, in mono. Re-recorded in 1980; the 1982 reissue reached UK No. 6.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "being-boiled",
+   "to": "philip-oakey",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-system100"
+   ],
+   "role": "vocals",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "martyn-ware",
+   "to": "the-human-league",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-h17"
+   ],
+   "note": "Founder member; left late 1980.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "ian-craig-marsh",
+   "to": "the-human-league",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-h17"
+   ],
+   "note": "Founder member; left late 1980.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "philip-oakey",
+   "to": "the-human-league",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-h17"
+   ],
+   "note": "Kept the Human League name after Ware and Marsh left.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "spiral",
+   "to": "roland-system-100",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-system100"
+   ],
+   "note": "Model 101 driven by a Model 104 sequencer.",
+   "checked": "2026-11-01",
+   "part": "sequence"
+  },
+  {
+   "from": "spiral",
+   "to": "vangelis",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-system100"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "linn-lm1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "note": "Songs were built up from an LM-1 pattern; tracks not specified.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "roland-jupiter-4",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "note": "From the album's studio equipment list; which tracks each machine is on isn't stated.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "roland-system-700",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "note": "From the album's studio equipment list; which tracks each machine is on isn't stated.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "roland-mc8",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "note": "From the album's studio equipment list; which tracks each machine is on isn't stated.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "casio-vl1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "note": "From the album's studio equipment list; which tracks each machine is on isn't stated.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "martin-rushent",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "role": "producer, programming",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dare",
+   "to": "the-human-league",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-dare"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "get-carter",
+   "to": "dare",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-dare"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "dare",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-dare"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "love-action",
+   "to": "dare",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-dare"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "get-carter",
+   "to": "casio-vl1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-vl1"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "da-da-da",
+   "to": "casio-vl1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-vl1"
+   ],
+   "note": "Rock-1 rhythm preset and the Piano voice.",
+   "checked": "2026-11-01",
+   "part": "rhythm and piano voice"
+  },
+  {
+   "from": "da-da-da",
+   "to": "trio",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-vl1"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "hanging-around",
+   "to": "casio-vl1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-vl1"
+   ],
+   "note": "Hazel O'Connor's cover (on Cover Plus) uses the VL-1's Rock-2 drum sound.",
+   "checked": "2026-11-01",
+   "part": "drums"
+  },
+  {
+   "from": "hanging-around",
+   "to": "hazel-oconnor",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-vl1"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "penthouse-and-pavement",
+   "to": "linn-lm1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-pp"
+   ],
+   "note": "Martyn Ware is credited with the LM-1. Recorded in Sheffield while the Human League were making Dare.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "penthouse-and-pavement",
+   "to": "martyn-ware",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-pp"
+   ],
+   "role": "synths, LM-1",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "penthouse-and-pavement",
+   "to": "ian-craig-marsh",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-pp"
+   ],
+   "role": "synths",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "penthouse-and-pavement",
+   "to": "heaven-17",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-pp"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "fascist-groove-thang",
+   "to": "penthouse-and-pavement",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-pp"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "martyn-ware",
+   "to": "heaven-17",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-h17"
+   ],
+   "note": "Co-founder, 1980.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "ian-craig-marsh",
+   "to": "heaven-17",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-h17"
+   ],
+   "note": "Co-founder, 1980.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "glenn-gregory",
+   "to": "heaven-17",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-h17"
+   ],
+   "note": "Lead vocals.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "together-in-electric-dreams",
+   "to": "roland-jupiter-8",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-tied"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "together-in-electric-dreams",
+   "to": "linndrum",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-tied"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "together-in-electric-dreams",
+   "to": "philip-oakey",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-tied"
+   ],
+   "role": "vocals, co-writer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "together-in-electric-dreams",
+   "to": "giorgio-moroder",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-tied"
+   ],
+   "role": "producer, co-writer, synths",
+   "note": "Often mis-credited to the Human League; they had no part in the original recording.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "i-feel-love",
+   "to": "moog-modular",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ifl"
+   ],
+   "note": "Moroder's Moog modular played the bassline; the hi-hat, snare and kick were also made on the Moog, synced to tape via a pulse on track 16. Set up by Robbie Wedel.",
+   "checked": "2026-11-01",
+   "part": "bassline and drums"
+  },
+  {
+   "from": "i-feel-love",
+   "to": "minimoog",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ifl"
+   ],
+   "note": "Used for later overdubs.",
+   "checked": "2026-11-01",
+   "part": "overdubs"
+  },
+  {
+   "from": "i-feel-love",
+   "to": "giorgio-moroder",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ifl"
+   ],
+   "role": "producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "i-feel-love",
+   "to": "pete-bellotte",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ifl"
+   ],
+   "role": "producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "i-feel-love",
+   "to": "donna-summer",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ifl"
+   ],
+   "role": "vocals",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "our-love",
+   "to": "bad-girls",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-badgirls"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "our-love",
+   "to": "giorgio-moroder",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-badgirls"
+   ],
+   "role": "co-writer, producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "our-love",
+   "to": "donna-summer",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-badgirls"
+   ],
+   "role": "vocals, co-writer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "bad-girls",
+   "to": "pete-bellotte",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-badgirls"
+   ],
+   "role": "producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "bad-girls",
+   "to": "synclavier",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-badgirls"
+   ],
+   "note": "Harold Faltermeyer is credited with Synclavier; tracks not specified.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "bad-girls",
+   "to": "harold-faltermeyer",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-badgirls"
+   ],
+   "role": "arranger, keyboards, Synclavier",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "sexual-healing",
+   "to": "roland-tr808",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-sh"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "sexual-healing",
+   "to": "roland-jupiter-8",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-sh"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "sexual-healing",
+   "to": "marvin-gaye",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-sh"
+   ],
+   "role": "performer, producer",
+   "note": "Recorded at Studio Katy, Ohain, Belgium.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "planet-rock",
+   "to": "roland-tr808",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "note": "Programmed by a hired drummer, Joe, copying the 'Numbers' beat by ear.",
+   "checked": "2026-11-01",
+   "part": "drums"
+  },
+  {
+   "from": "planet-rock",
+   "to": "prophet-5",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "note": "John Robie's keyboard; everything played by hand, nothing sequenced (Baker).",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "planet-rock",
+   "to": "micromoog",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "note": "John Robie's keyboard (Baker).",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "planet-rock",
+   "to": "fairlight-cmi",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "note": "Preset sounds; Baker says it couldn't sample.",
+   "checked": "2026-11-01",
+   "part": "explosion, handclaps, orchestra hit"
+  },
+  {
+   "from": "planet-rock",
+   "to": "afrika-bambaataa",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-pr"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "planet-rock",
+   "to": "arthur-baker",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "role": "producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "planet-rock",
+   "to": "john-robie",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "role": "keyboards, bass (all played by hand)",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "planet-rock",
+   "to": "numbers",
+   "type": "drew-on",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "role": "beat",
+   "checked": "2026-11-01",
+   "note": "Replayed by ear on the 808, not sampled."
+  },
+  {
+   "from": "planet-rock",
+   "to": "trans-europe-express",
+   "type": "drew-on",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-pr",
+    "sos-pr"
+   ],
+   "role": "melody",
+   "checked": "2026-11-01",
+   "note": "Melody borrowed, played by hand; no Kraftwerk sampling."
+  },
+  {
+   "from": "numbers",
+   "to": "kraftwerk",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-pr"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "trans-europe-express",
+   "to": "kraftwerk",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-pr"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "uranium",
+   "to": "kraftwerk",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "oberheim-dmx",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "checked": "2026-11-01",
+   "part": "drums",
+   "version": "1983 original"
+  },
+  {
+   "from": "blue-monday",
+   "to": "moog-source",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "note": "Synth bassline.",
+   "checked": "2026-11-01",
+   "part": "bassline",
+   "version": "1983 original"
+  },
+  {
+   "from": "blue-monday",
+   "to": "emulator-1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "note": "Sampled the choir from Kraftwerk's 'Uranium'.",
+   "checked": "2026-11-01",
+   "part": "choir sample",
+   "version": "1983 original"
+  },
+  {
+   "from": "blue-monday",
+   "to": "new-order",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "performer, producer",
+   "note": "Synced via a custom circuit, pre-MIDI. UK No. 9 in 1983.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "uranium",
+   "type": "drew-on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "sample",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "our-love",
+   "type": "drew-on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "cited influence",
+   "note": "Peter Hook has said the song was 'stolen' from it.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "dirty-talk",
+   "type": "drew-on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "cited influence",
+   "note": "Named by Bernard Sumner.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "you-make-me-feel",
+   "type": "drew-on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "cited influence",
+   "note": "Named by Bernard Sumner.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "the-human-league",
+   "type": "influenced-by",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "note": "Sumner named the Human League among influences.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "blue-monday",
+   "to": "giorgio-moroder",
+   "type": "influenced-by",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "note": "Named by Peter Hook.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dirty-talk",
+   "to": "klein-mbo",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "you-make-me-feel",
+   "to": "sylvester",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-bm"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "jump",
+   "to": "oberheim-obxa",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-jump"
+   ],
+   "note": "The riff.",
+   "checked": "2026-11-01",
+   "part": "riff"
+  },
+  {
+   "from": "jump",
+   "to": "van-halen",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-jump"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "jump",
+   "to": "ted-templeman",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-jump"
+   ],
+   "role": "producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "when-doves-cry",
+   "to": "linn-lm1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "reverb-prince"
+   ],
+   "note": "The 'doorknock' is a cross-stick snare tuned down about an octave.",
+   "checked": "2026-11-01",
+   "part": "drums"
+  },
+  {
+   "from": "1999",
+   "to": "linn-lm1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "reverb-prince"
+   ],
+   "note": "LM-1 fills alongside live drums.",
+   "checked": "2026-11-01",
+   "part": "drum fills"
+  },
+  {
+   "from": "when-doves-cry",
+   "to": "prince",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "reverb-prince"
+   ],
+   "role": "performer, producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "1999",
+   "to": "prince",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "reverb-prince"
+   ],
+   "role": "performer, producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "sweet-dreams",
+   "to": "movement-drum-computer",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-sd",
+    "sos-sd"
+   ],
+   "note": "Movement Systems MkI MCS Percussion Computer; Stewart says the first downbeat came from a mistake. It also triggered the SH-101.",
+   "checked": "2026-11-01",
+   "part": "drums"
+  },
+  {
+   "from": "sweet-dreams",
+   "to": "roland-sh101",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-sd",
+    "sos-sd"
+   ],
+   "note": "Triggered by the drum computer (Stewart).",
+   "checked": "2026-11-01",
+   "part": "the sequence"
+  },
+  {
+   "from": "sweet-dreams",
+   "to": "oberheim-obx",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "wiki-sd",
+    "sos-sd"
+   ],
+   "note": "Played by Annie Lennox; Stewart thinks it was a preset rather than their own sound.",
+   "checked": "2026-11-01",
+   "part": "string-style riff"
+  },
+  {
+   "from": "sweet-dreams",
+   "to": "eurythmics",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-sd"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "tainted-love",
+   "to": "synclavier",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tainted"
+   ],
+   "note": "Mike Thorne's Synclavier: piano, orchestral swells and the long horn sound. Dave Ball's Korg played bass (model not named), plus a borrowed Roland drum machine (model not named).",
+   "checked": "2026-11-01",
+   "part": "piano, orchestral swells, horn"
+  },
+  {
+   "from": "tainted-love",
+   "to": "mike-thorne",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tainted"
+   ],
+   "role": "producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "tainted-love",
+   "to": "soft-cell",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tainted"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "take-on-me",
+   "to": "roland-juno60",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "roland-tom",
+    "sos-tom"
+   ],
+   "note": "Tarney: the Juno-60 carried the main theme; Kitchingham: the band found the riff sound on it almost at once.",
+   "checked": "2026-11-01",
+   "version": "1985 Alan Tarney remake",
+   "part": "main theme"
+  },
+  {
+   "from": "take-on-me",
+   "to": "alan-tarney",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "roland-tom",
+    "sos-tom"
+   ],
+   "role": "producer, Juno-60, UMI",
+   "checked": "2026-11-01",
+   "version": "1985 Alan Tarney remake"
+  },
+  {
+   "from": "take-on-me",
+   "to": "a-ha",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "roland-tom"
+   ],
+   "role": "performer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "pleasure-principle",
+   "to": "minimoog",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-tpp"
+   ],
+   "note": "Album credit; not tied to individual tracks.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "pleasure-principle",
+   "to": "polymoog",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-tpp"
+   ],
+   "note": "Polymoog used heavily, especially its 'Vox Humana' preset. Not tied to individual tracks.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "pleasure-principle",
+   "to": "arp-odyssey",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-tpp"
+   ],
+   "note": "Album credit; not tied to individual tracks.",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "pleasure-principle",
+   "to": "gary-numan",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "wiki-tpp"
+   ],
+   "role": "performer, producer",
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "cars",
+   "to": "pleasure-principle",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-tpp"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "linn-lm1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-dywm",
+    "wiki-dare"
+   ],
+   "checked": "2026-11-01",
+   "part": "drums",
+   "note": "Rushent says a Linn drum machine played on every Dare track except 'The Sound Of The Crowd'. He calls it the LinnDrum; the album's equipment list names the LM-1.",
+   "disputes": [
+    {
+     "claim": "The machine was the LinnDrum (LM-2), as Rushent names it",
+     "grade": "documented",
+     "sources": [
+      "sos-dywm"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "roland-800-unidentified",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01",
+   "part": "low guitar-like line under the chorus",
+   "note": "Rushent: the computer played it half a beat out of time by accident, and they kept it."
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "martin-rushent",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer, engineer, programming"
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "jo-callis",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01",
+   "role": "synth programming, sweeteners"
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "philip-oakey",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01",
+   "role": "vocals"
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "susan-ann-sulley",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01",
+   "role": "vocals"
+  },
+  {
+   "from": "dont-you-want-me",
+   "to": "joanne-catherall",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01",
+   "role": "vocals"
+  },
+  {
+   "from": "jo-callis",
+   "to": "the-human-league",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "susan-ann-sulley",
+   "to": "the-human-league",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "joanne-catherall",
+   "to": "the-human-league",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-dywm"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "video-killed-the-radio-star",
+   "to": "trevor-horn",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer, vocals, bass, co-writer"
+  },
+  {
+   "from": "video-killed-the-radio-star",
+   "to": "geoff-downes",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01",
+   "role": "keyboards, co-writer"
+  },
+  {
+   "from": "video-killed-the-radio-star",
+   "to": "bruce-woolley",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01",
+   "role": "co-writer, guitar overdub"
+  },
+  {
+   "from": "video-killed-the-radio-star",
+   "to": "gary-langan",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01",
+   "role": "engineer (vocals, overdubs, mix)"
+  },
+  {
+   "from": "video-killed-the-radio-star",
+   "to": "hugh-padgham",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01",
+   "role": "engineer (tracking)"
+  },
+  {
+   "from": "video-killed-the-radio-star",
+   "to": "the-buggles",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer",
+   "note": "Synth models aren't named in the Classic Tracks piece; Langan praises Horn's TR-808 work but doesn't place it on this record."
+  },
+  {
+   "from": "trevor-horn",
+   "to": "the-buggles",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "geoff-downes",
+   "to": "the-buggles",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-vktrs"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "people-are-people",
+   "to": "synclavier",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "part": "sampling and editing; sampled snare and drums",
+   "note": "Daniel Miller's Synclavier, a big part of the sound (Gareth Jones)."
+  },
+  {
+   "from": "people-are-people",
+   "to": "emulator-2",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "part": "airplane sound in the chorus",
+   "note": "Martin Gore recorded the plane on a Walkman for the demo."
+  },
+  {
+   "from": "people-are-people",
+   "to": "emu-drumulator",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "part": "Alan Wilder's rhythm sketch, later replaced or enhanced with samples"
+  },
+  {
+   "from": "people-are-people",
+   "to": "minimoog",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "part": "guide bass layer",
+   "note": "Jones says the bass part was on a Minimoog or an ARP 2600."
+  },
+  {
+   "from": "people-are-people",
+   "to": "arp-2600",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "part": "rhythm sequence, driven by an ARP sequencer"
+  },
+  {
+   "from": "people-are-people",
+   "to": "arp-sequencer",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "part": "drove the ARP 2600 rhythm sequence"
+  },
+  {
+   "from": "people-are-people",
+   "to": "daniel-miller",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer, synth sounds"
+  },
+  {
+   "from": "people-are-people",
+   "to": "gareth-jones",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "role": "engineer, co-producer, sampling, mix"
+  },
+  {
+   "from": "people-are-people",
+   "to": "alan-wilder",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "role": "rhythm programming"
+  },
+  {
+   "from": "people-are-people",
+   "to": "martin-gore",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, demo, vocals"
+  },
+  {
+   "from": "people-are-people",
+   "to": "dave-gahan",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "role": "lead vocal"
+  },
+  {
+   "from": "people-are-people",
+   "to": "depeche-mode",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer",
+   "note": "Recorded and mixed at Hansa, Berlin, in about seven days."
+  },
+  {
+   "from": "alan-wilder",
+   "to": "depeche-mode",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "martin-gore",
+   "to": "depeche-mode",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "dave-gahan",
+   "to": "depeche-mode",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-pap"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "linndrum",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "part": "drums",
+   "note": "David Palmer bought one and programmed the beat before the studio; Horn confirms it was Palmer's idea."
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "minimoog",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "part": "bass",
+   "note": "The band already had the Minimoog bass part when Horn joined."
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "fairlight-cmi",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "part": "edits and 'scratching'",
+   "version": "12-inch US Remix",
+   "note": "Programmed by JJ Jeczalik."
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "trevor-horn",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "gary-langan",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "engineer"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "julian-mendelsohn",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "co-engineer, mixing"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "jj-jeczalik",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "Fairlight programming"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "david-palmer",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "drums, LinnDrum programming"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "anne-dudley",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "keyboards, string arrangements"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "martin-fry",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "lead vocals"
+  },
+  {
+   "from": "the-look-of-love",
+   "to": "abc",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "martin-fry",
+   "to": "abc",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "david-palmer",
+   "to": "abc",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-lol"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "relax",
+   "to": "linndrum",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "part": "Horn's rhythm pattern the track was built around",
+   "note": "Lipson recalls Horn saying he had a rhythm in his 'Linn 2'."
+  },
+  {
+   "from": "relax",
+   "to": "fairlight-cmi",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "part": "'all of the weirdness'",
+   "note": "Programmed by JJ Jeczalik."
+  },
+  {
+   "from": "relax",
+   "to": "roland-jupiter-8",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "part": "effects, including the explosions",
+   "note": "Played by Andy Richards."
+  },
+  {
+   "from": "relax",
+   "to": "roland-mc4",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "part": "sequencing",
+   "note": "Andy Richards."
+  },
+  {
+   "from": "relax",
+   "to": "roland-gr300",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "part": "guitar synth",
+   "note": "Steve Lipson thinks his was the second one made."
+  },
+  {
+   "from": "relax",
+   "to": "trevor-horn",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer, 12-inch remixes"
+  },
+  {
+   "from": "relax",
+   "to": "steve-lipson",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "engineer, Synclavier, guitar, arrangement"
+  },
+  {
+   "from": "relax",
+   "to": "jj-jeczalik",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "Fairlight programming"
+  },
+  {
+   "from": "relax",
+   "to": "andy-richards",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "keyboards, sequencing"
+  },
+  {
+   "from": "relax",
+   "to": "holly-johnson",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "lead vocal"
+  },
+  {
+   "from": "relax",
+   "to": "julian-mendelsohn",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "7-inch mix"
+  },
+  {
+   "from": "relax",
+   "to": "frankie-goes-to-hollywood",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer",
+   "note": "Sarm West, 1983. Three 12-inch mixes exist."
+  },
+  {
+   "from": "holly-johnson",
+   "to": "frankie-goes-to-hollywood",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-relax"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "the-reflex",
+   "to": "alex-sadkin",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-reflex"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer"
+  },
+  {
+   "from": "the-reflex",
+   "to": "ian-little",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-reflex"
+   ],
+   "checked": "2026-11-01",
+   "role": "co-producer"
+  },
+  {
+   "from": "the-reflex",
+   "to": "nile-rodgers",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-reflex"
+   ],
+   "checked": "2026-11-01",
+   "role": "single remix",
+   "version": "single remix"
+  },
+  {
+   "from": "the-reflex",
+   "to": "nick-rhodes",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-reflex"
+   ],
+   "checked": "2026-11-01",
+   "role": "keyboards"
+  },
+  {
+   "from": "the-reflex",
+   "to": "duran-duran",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-reflex"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer, co-producer",
+   "note": "Ian Little confirms Nick Rhodes had a Jupiter-8 and that a Fairlight was tried, but neither is placed on the record. Rodgers' single remix adds the pitched-down vocal sample in the intro."
+  },
+  {
+   "from": "nick-rhodes",
+   "to": "duran-duran",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-reflex"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "nineteen",
+   "to": "emulator-2",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-19"
+   ],
+   "checked": "2026-11-01",
+   "part": "sampled narration and the stuttering hook",
+   "note": "Bought with Chrysalis money; 17 seconds of sample time."
+  },
+  {
+   "from": "nineteen",
+   "to": "roland-tr808",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-19"
+   ],
+   "checked": "2026-11-01",
+   "part": "beats",
+   "note": "Borrowed for a few days."
+  },
+  {
+   "from": "nineteen",
+   "to": "prophet-5",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-19"
+   ],
+   "checked": "2026-11-01",
+   "part": "synth sweep",
+   "note": "His 'synth workhorse' at the time."
+  },
+  {
+   "from": "nineteen",
+   "to": "paul-hardcastle",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-19"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer, performer",
+   "note": "Recorded in his front room in Leytonstone; UK No. 1 for five weeks in 1985."
+  },
+  {
+   "from": "nineteen",
+   "to": "planet-rock",
+   "type": "drew-on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-19"
+   ],
+   "checked": "2026-11-01",
+   "role": "cited influence",
+   "note": "Cited as inspiration in the article, with 'Looking For The Perfect Beat', for their 808 grooves; it isn't clear whether Hardcastle or the author says so."
+  },
+  {
+   "from": "iou",
+   "to": "roland-tr808",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "part": "main beat",
+   "note": "Programmed by Everton McCalla."
+  },
+  {
+   "from": "iou",
+   "to": "micromoog",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "part": "staccato bassline",
+   "note": "Played live by Andy Stennett."
+  },
+  {
+   "from": "iou",
+   "to": "prophet-5",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "part": "synth hook and drum fills",
+   "note": "McCalla overdubbed the fills; the hook's player isn't named."
+  },
+  {
+   "from": "iou",
+   "to": "emulator-1",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "part": "sampled vowel 'solo'",
+   "note": "Jellybean Benitez suggested sampling the vowels; Baker says John Robie played the sampled solo."
+  },
+  {
+   "from": "iou",
+   "to": "arthur-baker",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, producer, co-mix"
+  },
+  {
+   "from": "iou",
+   "to": "john-robie",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "mix engineer, played the sampled solo"
+  },
+  {
+   "from": "iou",
+   "to": "john-rocca",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "lead vocal"
+  },
+  {
+   "from": "iou",
+   "to": "andy-stennett",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "keyboards"
+  },
+  {
+   "from": "iou",
+   "to": "everton-mccalla",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "drums, 808 programming"
+  },
+  {
+   "from": "iou",
+   "to": "jellybean-benitez",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "sampling idea, co-mixes"
+  },
+  {
+   "from": "iou",
+   "to": "freeez",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer",
+   "note": "Recorded in New York in 1982; a UK hit in 1983."
+  },
+  {
+   "from": "john-rocca",
+   "to": "freeez",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "andy-stennett",
+   "to": "freeez",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "everton-mccalla",
+   "to": "freeez",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-iou"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "ghosts",
+   "to": "roland-system-700",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "part": "the odd, discordant opening sounds",
+   "note": "Played by Richard Barbieri, who says he can't recreate the sound even with his notes."
+  },
+  {
+   "from": "ghosts",
+   "to": "prophet-5",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "part": "the three plucked chorus chords",
+   "note": "Played by David Sylvian."
+  },
+  {
+   "from": "ghosts",
+   "to": "oberheim-obx",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "part": "sustained answer chords",
+   "note": "Played by Barbieri."
+  },
+  {
+   "from": "ghosts",
+   "to": "david-sylvian",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, vocals, Prophet-5"
+  },
+  {
+   "from": "ghosts",
+   "to": "richard-barbieri",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "role": "System 700, OB-X"
+  },
+  {
+   "from": "ghosts",
+   "to": "steve-jansen",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "role": "marimba solo"
+  },
+  {
+   "from": "ghosts",
+   "to": "steve-nye",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "role": "co-producer"
+  },
+  {
+   "from": "ghosts",
+   "to": "japan",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer",
+   "note": "From Tin Drum (1981); UK No. 5 in 1982. No drums or bass on the track."
+  },
+  {
+   "from": "david-sylvian",
+   "to": "japan",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "richard-barbieri",
+   "to": "japan",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "steve-jansen",
+   "to": "japan",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-ghosts"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "take-on-me",
+   "to": "linndrum",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "part": "drums",
+   "version": "1985 Alan Tarney remake",
+   "note": "Programmed by Pål Waaktaar; real cymbals overdubbed and AMS-sampled snares layered in."
+  },
+  {
+   "from": "take-on-me",
+   "to": "yamaha-dx7",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "part": "part of the sound, alongside the Juno-60",
+   "version": "1985 Alan Tarney remake"
+  },
+  {
+   "from": "take-on-me",
+   "to": "ppg-wave",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "part": "keyboards",
+   "version": "1985 Alan Tarney remake",
+   "note": "Played by Pål and Magne, recorded direct."
+  },
+  {
+   "from": "take-on-me",
+   "to": "umi-computer",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "part": "drove the instruments",
+   "version": "1985 Alan Tarney remake",
+   "note": "Built by a friend of Tarney's."
+  },
+  {
+   "from": "take-on-me",
+   "to": "synclavier",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "part": "drums",
+   "version": "1984 Neill King version",
+   "note": "The October 1984 single that flopped."
+  },
+  {
+   "from": "take-on-me",
+   "to": "fairlight-cmi",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "version": "1984 Tony Mansfield version (rejected)",
+   "note": "According to Tarney and Kitchingham; not confirmed by Mansfield."
+  },
+  {
+   "from": "take-on-me",
+   "to": "gerry-kitchingham",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "role": "engineer, mix",
+   "version": "1985 Alan Tarney remake"
+  },
+  {
+   "from": "take-on-me",
+   "to": "pal-waaktaar",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "role": "LinnDrum programming",
+   "version": "1985 Alan Tarney remake"
+  },
+  {
+   "from": "take-on-me",
+   "to": "magne-furuholmen",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "role": "PPG Wave",
+   "version": "1985 Alan Tarney remake"
+  },
+  {
+   "from": "take-on-me",
+   "to": "morten-harket",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01",
+   "role": "lead vocal",
+   "version": "1985 Alan Tarney remake"
+  },
+  {
+   "from": "pal-waaktaar",
+   "to": "a-ha",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "magne-furuholmen",
+   "to": "a-ha",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "morten-harket",
+   "to": "a-ha",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-tom"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "sweet-dreams",
+   "to": "dave-stewart",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-sd"
+   ],
+   "checked": "2026-11-01",
+   "role": "producer, co-writer, drum computer and sequencing"
+  },
+  {
+   "from": "sweet-dreams",
+   "to": "annie-lennox",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-sd"
+   ],
+   "checked": "2026-11-01",
+   "role": "vocals, co-writer, OB-X riff"
+  },
+  {
+   "from": "dave-stewart",
+   "to": "eurythmics",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-sd"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "annie-lennox",
+   "to": "eurythmics",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-sd"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "being-boiled",
+   "to": "martyn-ware",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-ware-2000"
+   ],
+   "checked": "2026-11-01",
+   "role": "synths, co-writer",
+   "note": "Ware calls it the first record he made. Vince Clarke told him it was the first single he ever bought."
+  },
+  {
+   "from": "tvod-warm-leatherette",
+   "to": "korg-700s",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998",
+    "wiki-warm-leatherette",
+    "sos-miller-podcast"
+   ],
+   "checked": "2026-11-01",
+   "part": "synth (sawtooth waves)",
+   "note": "Miller says his first single was made with just a Korg 700S; it was T.V.O.D./Warm Leatherette, Mute's first release (Nov 1978). Accounts differ on the tape machine: two Revox B-77s (Wikipedia) or a TEAC four-track (SOS biography)."
+  },
+  {
+   "from": "tvod-warm-leatherette",
+   "to": "daniel-miller",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998",
+    "wiki-warm-leatherette"
+   ],
+   "checked": "2026-11-01",
+   "role": "sole performer, producer"
+  },
+  {
+   "from": "tvod-warm-leatherette",
+   "to": "the-normal",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-warm-leatherette"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "daniel-miller",
+   "to": "the-normal",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "wiki-warm-leatherette"
+   ],
+   "checked": "2026-11-01",
+   "note": "The Normal was Miller's project."
+  },
+  {
+   "from": "photographic",
+   "to": "arp-2600",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "version": "early version (later re-recorded for Speak & Spell)",
+   "note": "Miller synced the ARP sequencer to tape."
+  },
+  {
+   "from": "photographic",
+   "to": "arp-sequencer",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "version": "early version (later re-recorded for Speak & Spell)"
+  },
+  {
+   "from": "photographic",
+   "to": "daniel-miller",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "role": "production"
+  },
+  {
+   "from": "photographic",
+   "to": "depeche-mode",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "photographic",
+   "to": "speak-and-spell",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "version": "re-recorded version"
+  },
+  {
+   "from": "speak-and-spell",
+   "to": "arp-sequencer",
+   "type": "used",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-vince-2020"
+   ],
+   "checked": "2026-11-01",
+   "note": "Vince Clarke: most of the album was made with it. Daniel Miller introduced it to the band."
+  },
+  {
+   "from": "speak-and-spell",
+   "to": "vince-clarke",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-vince-2020"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, synths"
+  },
+  {
+   "from": "speak-and-spell",
+   "to": "daniel-miller",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-vince-2020"
+   ],
+   "checked": "2026-11-01",
+   "role": "introduced the ARP sequencer"
+  },
+  {
+   "from": "speak-and-spell",
+   "to": "depeche-mode",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "sos-vince-2020"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "vince-clarke",
+   "to": "depeche-mode",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-vince-2020"
+   ],
+   "checked": "2026-11-01",
+   "note": "Left in 1981; formed Yazoo, later Erasure."
+  },
+  {
+   "from": "a-broken-frame",
+   "to": "roland-tr808",
+   "type": "used",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "part": "some sounds, not the whole kit"
+  },
+  {
+   "from": "a-broken-frame",
+   "to": "daniel-miller",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "role": "production"
+  },
+  {
+   "from": "a-broken-frame",
+   "to": "depeche-mode",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "sos-miller-1998"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "are-friends-electric",
+   "to": "minimoog",
+   "type": "used",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-numan-1996"
+   ],
+   "checked": "2026-11-01",
+   "note": "The article says a Minimoog left at Spaceward Studios, Cambridge, led to the song (author's account, not Numan's)."
+  },
+  {
+   "from": "are-friends-electric",
+   "to": "gary-numan",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-numan-1996"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, performer",
+   "note": "Numan played everything on Replicas except drums and bass."
+  },
+  {
+   "from": "are-friends-electric",
+   "to": "tubeway-army",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-numan-1996"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "gary-numan",
+   "to": "tubeway-army",
+   "type": "member",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-numan-1996"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "hes-a-liquid",
+   "to": "arp-sequencer",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01",
+   "part": "drum programming, triggering bass and snare sounds"
+  },
+  {
+   "from": "hes-a-liquid",
+   "to": "metamatic",
+   "type": "on",
+   "grade": "reported",
+   "scope": "track",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01"
+  },
+  {
+   "from": "metamatic",
+   "to": "roland-cr78",
+   "type": "used",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01",
+   "note": "Through an MXR flanger, 'all over' the album (Foxx)."
+  },
+  {
+   "from": "metamatic",
+   "to": "john-foxx",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "album",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, performer, producer"
+  },
+  {
+   "from": "twilights-last-gleaming",
+   "to": "roland-mc8",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01",
+   "part": "almost entirely sequenced on it",
+   "note": "From The Golden Section (1983)."
+  },
+  {
+   "from": "twilights-last-gleaming",
+   "to": "mike-howlett",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01",
+   "role": "MC-8 programming"
+  },
+  {
+   "from": "twilights-last-gleaming",
+   "to": "john-foxx",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-foxx-2021"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "dazzle-ships",
+   "to": "emulator-1",
+   "type": "used",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "sos-omd-1996"
+   ],
+   "checked": "2026-11-01",
+   "part": "early sampling experiments",
+   "note": "Author's account; the article names 'the Emu Emulator' without a part or track."
+  },
+  {
+   "from": "dazzle-ships",
+   "to": "omd",
+   "type": "credit",
+   "grade": "reported",
+   "scope": "album",
+   "sources": [
+    "sos-omd-1996"
+   ],
+   "checked": "2026-11-01",
+   "role": "performer"
+  },
+  {
+   "from": "cars",
+   "to": "polymoog",
+   "type": "used",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-numan-1996"
+   ],
+   "checked": "2026-11-01",
+   "part": "the high string sound",
+   "note": "Numan: the 'Vox Humana' preset, the Polymoog's one good preset."
+  },
+  {
+   "from": "cars",
+   "to": "gary-numan",
+   "type": "credit",
+   "grade": "documented",
+   "scope": "track",
+   "sources": [
+    "sos-numan-1996"
+   ],
+   "checked": "2026-11-01",
+   "role": "writer, performer"
+  }
+ ],
+ "sources": {
+  "sos-system100": {
+   "title": "Sound On Sound: Roland System 100",
+   "url": "https://www.soundonsound.com/music-business/roland-system-100",
+   "kind": "magazine",
+   "accessed": "2026-11-01"
+  },
+  "matrixsynth-boiled": {
+   "title": "MATRIXSYNTH: Being Boiled interview and the Roland System 100 (reports Martyn Ware demonstrating on the original synths)",
+   "url": "https://www.matrixsynth.com/2009/12/human-league-being-boiled-interview-and.html",
+   "kind": "blog",
+   "accessed": "2026-11-01"
+  },
+  "wiki-being-boiled": {
+   "title": "Wikipedia: Being Boiled",
+   "url": "https://en.wikipedia.org/wiki/Being_Boiled",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-dare": {
+   "title": "Wikipedia: Dare (album)",
+   "url": "https://en.wikipedia.org/wiki/Dare_(album)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-vl1": {
+   "title": "Wikipedia: Casio VL-1",
+   "url": "https://en.wikipedia.org/wiki/Casio_VL-1",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-pp": {
+   "title": "Wikipedia: Penthouse and Pavement",
+   "url": "https://en.wikipedia.org/wiki/Penthouse_and_Pavement",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-h17": {
+   "title": "Wikipedia: Heaven 17",
+   "url": "https://en.wikipedia.org/wiki/Heaven_17",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-tied": {
+   "title": "Wikipedia: Together in Electric Dreams",
+   "url": "https://en.wikipedia.org/wiki/Together_in_Electric_Dreams",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "sos-ifl": {
+   "title": "Sound On Sound Classic Tracks: Donna Summer 'I Feel Love'",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-donna-summer-feel-love",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "wiki-sh": {
+   "title": "Wikipedia: Sexual Healing",
+   "url": "https://en.wikipedia.org/wiki/Sexual_Healing",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-pr": {
+   "title": "Wikipedia: Planet Rock (song)",
+   "url": "https://en.wikipedia.org/wiki/Planet_Rock_(song)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-bm": {
+   "title": "Wikipedia: Blue Monday (New Order song)",
+   "url": "https://en.wikipedia.org/wiki/Blue_Monday_(New_Order_song)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-badgirls": {
+   "title": "Wikipedia: Bad Girls (Donna Summer album)",
+   "url": "https://en.wikipedia.org/wiki/Bad_Girls_(Donna_Summer_album)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "wiki-jump": {
+   "title": "Wikipedia: Jump (Van Halen song)",
+   "url": "https://en.wikipedia.org/wiki/Jump_(Van_Halen_song)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "reverb-prince": {
+   "title": "Reverb: Prince and the Linn LM-1",
+   "url": "https://reverb.com/news/prince-and-the-linn-lm-1",
+   "kind": "magazine",
+   "accessed": "2026-11-01"
+  },
+  "wiki-sd": {
+   "title": "Wikipedia: Sweet Dreams (Are Made of This)",
+   "url": "https://en.wikipedia.org/wiki/Sweet_Dreams_(Are_Made_of_This)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "sos-tainted": {
+   "title": "Sound On Sound Classic Tracks: Soft Cell 'Tainted Love'",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-soft-cell-tainted-love",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "roland-tom": {
+   "title": "Roland Articles: Sound Behind the Song, 'Take On Me'",
+   "url": "https://articles.roland.com/take-on-me-a-ha",
+   "kind": "manufacturer",
+   "accessed": "2026-11-01"
+  },
+  "wiki-tpp": {
+   "title": "Wikipedia: The Pleasure Principle (album)",
+   "url": "https://en.wikipedia.org/wiki/The_Pleasure_Principle_(album)",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "ware-video": {
+   "title": "YouTube: Human League 'Being Boiled' - in the studio with Martyn Ware (reported by MATRIXSYNTH and Failed Muso as Ware playing it on the original synths)",
+   "url": "https://youtube.com/watch?v=WdjtAIMZXTs",
+   "kind": "video",
+   "accessed": "2026-11-01"
+  },
+  "sos-dywm": {
+   "title": "Sound On Sound Classic Tracks: Human League 'Don't You Want Me' (Martin Rushent)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-human-league-dont-you-want-me",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-vktrs": {
+   "title": "Sound On Sound Classic Tracks: The Buggles 'Video Killed The Radio Star' (Gary Langan)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-buggles-video-killed-radio-star",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-pap": {
+   "title": "Sound On Sound Classic Tracks: Depeche Mode 'People Are People' (Gareth Jones)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-depeche-mode-people-are-people",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-sd": {
+   "title": "Sound On Sound Classic Tracks: Eurythmics 'Sweet Dreams' (Dave Stewart)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-eurythmics-sweet-dreams",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-lol": {
+   "title": "Sound On Sound Classic Tracks: ABC 'The Look Of Love' (Trevor Horn)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-abc-look-love",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-relax": {
+   "title": "Sound On Sound Classic Tracks: Frankie Goes To Hollywood 'Relax' (Steve Lipson, Trevor Horn)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-frankie-goes-hollywood-relax",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-reflex": {
+   "title": "Sound On Sound Classic Tracks: Duran Duran 'The Reflex' (Ian Little)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-duran-duran-reflex",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-19": {
+   "title": "Sound On Sound Classic Tracks: Paul Hardcastle '19'",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-paul-hardcastle-19",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-iou": {
+   "title": "Sound On Sound Classic Tracks: Freeez 'IOU' (Arthur Baker, John Rocca)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-freeez-iou",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-ghosts": {
+   "title": "Sound On Sound Classic Tracks: Japan 'Ghosts' (Richard Barbieri)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-japan-ghosts",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-tom": {
+   "title": "Sound On Sound Classic Tracks: a-ha 'Take On Me' (Alan Tarney, Gerry Kitchingham, Neill King)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-ha-take-me",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-pr": {
+   "title": "Sound On Sound Classic Tracks: Afrika Bambaataa & The Soulsonic Force 'Planet Rock' (Arthur Baker)",
+   "url": "https://www.soundonsound.com/techniques/classic-tracks-afrika-bambaataa-soulsonic-force-planet-rock",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-miller-1998": {
+   "title": "Sound On Sound (Dec 1998): Daniel Miller interview",
+   "url": "https://www.soundonsound.com/people-1",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-miller-podcast": {
+   "title": "Sound On Sound: Daniel Miller, Mute Records (podcast page biography)",
+   "url": "https://www.soundonsound.com/people/daniel-miller-mute-records-sos-podcast",
+   "kind": "magazine",
+   "accessed": "2026-11-01"
+  },
+  "wiki-warm-leatherette": {
+   "title": "Wikipedia: Warm Leatherette",
+   "url": "https://en.wikipedia.org/wiki/Warm_Leatherette",
+   "kind": "encyclopedia",
+   "accessed": "2026-11-01"
+  },
+  "sos-vince-2020": {
+   "title": "Sound On Sound (Oct 2020): Vince Clarke, Electronic Music Pioneer",
+   "url": "https://www.soundonsound.com/people/vince-clarke-electronic-music-pioneer",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-numan-1996": {
+   "title": "Sound On Sound (Jul 1996): Gary Numan, A New Flame",
+   "url": "https://www.soundonsound.com/people/gary-numan-new-flame",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-foxx-2021": {
+   "title": "Sound On Sound (Jun 2021): Generations Part 1, John Foxx",
+   "url": "https://www.soundonsound.com/people/generations-part1-john-foxx",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  },
+  "sos-omd-1996": {
+   "title": "Sound On Sound (Oct 1996): Andy McCluskey (OMD), Universal Appeal",
+   "url": "https://www.soundonsound.com/people/andy-mccluskey-omd-universal-appeal",
+   "kind": "magazine",
+   "accessed": "2026-11-01"
+  },
+  "sos-ware-2000": {
+   "title": "Sound On Sound (Apr 2000): Martyn Ware, The Clarke & Ware Experiment",
+   "url": "https://www.soundonsound.com/people/martyn-ware-clarke-ware-experiment",
+   "kind": "magazine-interview",
+   "accessed": "2026-11-01"
+  }
+ },
+ "schema": 2,
+ "scope": {
+  "focus": "British synth pop",
+  "years": [
+   1978,
+   1986
+  ],
+  "note": "Connector records outside the focus are kept where they link the graph."
+ }
+}

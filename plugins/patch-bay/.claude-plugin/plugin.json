@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "patch-bay",
+  "version": "0.4.0",
+  "description": "A synth-nerd companion for 70s and 80s electronic pop: this week in the charts with playlists, synth forensics with honest confidence grades, and Six Degrees of Being Boiled.",
+  "author": {
+    "name": "Laurence Timms",
+    "url": "https://laurencetimms.com"
+  },
+  "homepage": "https://laurencetimms.com",
+  "repository": "https://github.com/laurencetimms/plugins",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "music",
+    "synthesizers",
+    "80s",
+    "charts",
+    "playlists",
+    "game",
+    "music-history"
+  ]
+}
